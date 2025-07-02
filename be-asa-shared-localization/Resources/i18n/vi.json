@@ -18,5 +18,27 @@
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Load dữ liệu thành công.",
     "DATA_CREATED": "Tạo dữ liệu thành công."
+  },
+  "branch": {
+    "BRANCH_ALREADY_EXISTS": "Branch already exists.",
+    "BRANCH_NOT_FOUND": "Branch not found.",
+    "BRANCH_NAME_EXISTS": "Branch name already exists.",
+    "CANNOT_DELETE_ASSIGNED_BRANCH": "Cannot delete branch because it is assigned to users."
+  },
+  "commandInFunction": {
+    "FUNCTION_NOT_FOUND": "Function does not exist.",
+    "INVALID_COMMANDS": "Some commands are invalid."
+  },
+  "command": {
+    "notFound": "Không tìm thấy command.",
+    "invalidCommandName": "Giá trị CommandName không hợp lệ.",
+    "nameExists": "Tên command quyền đã tồn tại.",
+    "alreadyExists": "Command đã tồn tại.",
+    "cannotDeleteInUse": "Không thể xoá command vì đang được sử dụng trong hệ thống."
+  },
+  "function": {
+    "accessDenied": "Bạn không có quyền truy cập chức năng này.",
+    "notFound": "Không tìm thấy chức năng."
   }
+
 }
