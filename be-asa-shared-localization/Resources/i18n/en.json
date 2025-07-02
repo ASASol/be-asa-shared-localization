@@ -1,9 +1,19 @@
 ﻿{
   "auth": {
+    "INVALID_CREDENTIALS": "Invalid email or password.",
+    "USER_NOT_ACTIVE": "Your account is not active.",
+    "USER_LOCKED_UNTIL": "Your account is locked. Please try again after {0}.",
+    "USER_LOCKED_15_MINUTES": "You have exceeded the allowed number of login attempts. Your account is locked for 15 minutes.",
+    "LOGIN_FAILED": "Login failed due to incorrect password.",
+    "INVALID_REFRESH_TOKEN": "Invalid refresh token.",
+    "BRANCH_ACCESS_DENIED": "You do not have access to this branch.",
+    "BRANCH_NOT_FOUND": "Selected branch not found.",
+    "TOKEN_USER_INVALID": "The token is invalid for this user.",
+    "USER_NOT_FOUND": "User not found.",
     "LOGIN_SUCCESS": "Login successful.",
+    "LOGOUT_SUCCESS": "Logout successful.",
     "REFRESH_SUCCESS": "Token refreshed successfully.",
-    "SELECT_BRANCH_SUCCESS": "Branch selected successfully.",
-    "LOGOUT_SUCCESS": "Logout successful."
+    "SELECT_BRANCH_SUCCESS": "Branch selected successfully."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Data loaded successfully.",

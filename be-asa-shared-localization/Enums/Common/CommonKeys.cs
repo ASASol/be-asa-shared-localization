@@ -1,4 +1,4 @@
-﻿namespace be_asa_shared_localization.Enums
+﻿namespace be_asa_shared_localization.Enums.Common
 {
     public enum CommonKeys
     {

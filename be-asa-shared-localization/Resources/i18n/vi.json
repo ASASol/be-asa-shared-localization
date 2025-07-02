@@ -1,9 +1,19 @@
 ﻿{
   "auth": {
+    "INVALID_CREDENTIALS": "Email hoặc mật khẩu không hợp lệ.",
+    "USER_NOT_ACTIVE": "Tài khoản chưa được kích hoạt.",
+    "USER_LOCKED_UNTIL": "Tài khoản của bạn đã bị khóa. Vui lòng thử lại sau ngày {0}.",
+    "USER_LOCKED_15_MINUTES": "Bạn đã đăng nhập sai quá số lần quy định. Tài khoản đã bị khóa trong 15 phút.",
+    "LOGIN_FAILED": "Đăng nhập thất bại do sai mật khẩu.",
+    "INVALID_REFRESH_TOKEN": "Refresh token không hợp lệ.",
+    "BRANCH_ACCESS_DENIED": "Bạn không có quyền truy cập vào chi nhánh này.",
+    "BRANCH_NOT_FOUND": "Không tìm thấy chi nhánh được chọn.",
+    "TOKEN_USER_INVALID": "Token không hợp lệ cho người dùng này.",
+    "USER_NOT_FOUND": "Không tìm thấy người dùng.",
     "LOGIN_SUCCESS": "Đăng nhập thành công.",
-    "REFRESH_SUCCESS": "Refresh thành công.",
-    "SELECT_BRANCH_SUCCESS": "Chọn chi nhánh thành công.",
-    "LOGOUT_SUCCESS": "Đăng xuất thành công."
+    "LOGOUT_SUCCESS": "Đăng xuất thành công.",
+    "REFRESH_SUCCESS": "Refresh token thành công.",
+    "SELECT_BRANCH_SUCCESS": "Chọn chi nhánh thành công."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Load dữ liệu thành công.",

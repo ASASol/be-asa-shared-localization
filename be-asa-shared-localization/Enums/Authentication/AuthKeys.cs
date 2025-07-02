@@ -1,0 +1,20 @@
+﻿namespace be_asa_shared_localization.Enums.Authentication
+{
+    public enum AuthKeys
+    {
+        INVALID_CREDENTIALS,
+        USER_NOT_ACTIVE,
+        USER_LOCKED_UNTIL,
+        USER_LOCKED_15_MINUTES,
+        LOGIN_FAILED,
+        INVALID_REFRESH_TOKEN,
+        BRANCH_ACCESS_DENIED,
+        BRANCH_NOT_FOUND,
+        TOKEN_USER_INVALID,
+        USER_NOT_FOUND,
+        LOGIN_SUCCESS,
+        LOGOUT_SUCCESS,
+        REFRESH_SUCCESS,
+        SELECT_BRANCH_SUCCESS
+    }
+}
