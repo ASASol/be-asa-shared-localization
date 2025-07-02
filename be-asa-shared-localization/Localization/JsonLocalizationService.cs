@@ -17,29 +17,33 @@ namespace be_asa_shared_localization.Localization
             LoadAllLanguages();
         }
 
-        public string this[Enum key] => Get(key);
+        public string this[Enum key] => Get(key.ToString());
 
-        public string Get<TEnum>(TEnum key, params object[] args) where TEnum : Enum
-            => Get((Enum)(object)key, args);
+        public string Get<TEnum>(TEnum key, params object[] args) where TEnum : Enum =>
+            Get(key.ToString(), args);
 
-        private string Get(Enum key, params object[] args)
+        public string Get<TEnum>(string prefix, TEnum key, params object[] args) where TEnum : Enum =>
+            Get($"{prefix}.{key}", args);
+
+        public string Get(string key, params object[] args)
         {
             var culture = GetRequestCulture();
-            var stringKey = key.ToString();
 
             if (_localizationCache.TryGetValue(culture, out var dict) &&
-                dict.TryGetValue(stringKey, out var value))
+                dict.TryGetValue(key, out var value))
             {
                 return string.Format(value, args);
             }
 
-            return stringKey; // fallback
+            return key; // fallback
         }
 
         private string GetRequestCulture()
         {
             var culture = _httpContextAccessor.HttpContext?.Request.Headers["Accept-Language"].ToString();
-            return string.IsNullOrWhiteSpace(culture) ? "vi" : culture.Split(',')[0].Trim().ToLower();
+            return string.IsNullOrWhiteSpace(culture)
+                ? "vi"
+                : culture.Split(',')[0].Trim().ToLower();
         }
 
         private void LoadAllLanguages()
@@ -51,10 +55,30 @@ namespace be_asa_shared_localization.Localization
             {
                 var culture = Path.GetFileNameWithoutExtension(file).ToLower();
                 var json = File.ReadAllText(file);
-                var dict = JsonSerializer.Deserialize<Dictionary<string, string>>(json);
-                if (dict != null)
+
+                var element = JsonSerializer.Deserialize<JsonElement>(json);
+                if (element.ValueKind == JsonValueKind.Object)
                 {
-                    _localizationCache[culture] = dict;
+                    var flatDict = new Dictionary<string, string>();
+                    FlattenJson(element, "", flatDict);
+                    _localizationCache[culture] = flatDict;
+                }
+            }
+        }
+
+        private void FlattenJson(JsonElement element, string parentKey, Dictionary<string, string> result)
+        {
+            foreach (var property in element.EnumerateObject())
+            {
+                var key = string.IsNullOrEmpty(parentKey) ? property.Name : $"{parentKey}.{property.Name}";
+
+                if (property.Value.ValueKind == JsonValueKind.Object)
+                {
+                    FlattenJson(property.Value, key, result);
+                }
+                else if (property.Value.ValueKind == JsonValueKind.String)
+                {
+                    result[key] = property.Value.GetString()!;
                 }
             }
         }
