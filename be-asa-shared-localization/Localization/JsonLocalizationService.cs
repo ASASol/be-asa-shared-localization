@@ -6,20 +6,17 @@ namespace be_asa_shared_localization.Localization
 {
     public class JsonLocalizationService : IJsonLocalizationService
     {
-        private readonly IWebHostEnvironment _env;
+        private readonly IHostEnvironment _env;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly Dictionary<string, Dictionary<string, string>> _localizationCache = new();
 
-        public JsonLocalizationService
-            (
-                IWebHostEnvironment env,
-                IHttpContextAccessor httpContextAccessor
-            )
+        public JsonLocalizationService(IHostEnvironment env, IHttpContextAccessor httpContextAccessor)
         {
             _env = env;
             _httpContextAccessor = httpContextAccessor;
             LoadAllLanguages();
         }
+
         public string this[string key] => Get(key);
 
         public string Get(string key, params object[] args)
@@ -55,7 +52,6 @@ namespace be_asa_shared_localization.Localization
                     _localizationCache[culture] = dict;
                 }
             }
-
         }
     }
 }
