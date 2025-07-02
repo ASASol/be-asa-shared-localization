@@ -8,19 +8,23 @@ namespace be_asa_shared_localization.Localization
     {
         private readonly IHostEnvironment _env;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly Dictionary<string, Dictionary<string, string>> _localizationCache = new();
+
+        private static readonly Dictionary<string, Dictionary<string, string>> _localizationCache = new();
+        private static bool _isLoaded = false;
+        private static readonly object _lock = new();
 
         public JsonLocalizationService(IHostEnvironment env, IHttpContextAccessor httpContextAccessor)
         {
             _env = env;
             _httpContextAccessor = httpContextAccessor;
-            LoadAllLanguages();
         }
 
         public string this[string key] => Get(key);
 
         public string Get(string key, params object[] args)
         {
+            EnsureLanguagesLoaded();
+
             var culture = GetRequestCulture();
             if (_localizationCache.TryGetValue(culture, out var dict) &&
                 dict.TryGetValue(key, out var value))
@@ -37,21 +41,31 @@ namespace be_asa_shared_localization.Localization
             return string.IsNullOrWhiteSpace(culture) ? "vi" : culture.Split(',')[0].Trim().ToLower();
         }
 
-        private void LoadAllLanguages()
+        private void EnsureLanguagesLoaded()
         {
-            var path = Path.Combine(AppContext.BaseDirectory, "Resources", "i18n");
-            if (!Directory.Exists(path)) return;
+            if (_isLoaded) return;
 
-            foreach (var file in Directory.GetFiles(path, "*.json"))
+            lock (_lock)
             {
-                var culture = Path.GetFileNameWithoutExtension(file).ToLower();
-                var json = File.ReadAllText(file);
-                var dict = JsonSerializer.Deserialize<Dictionary<string, string>>(json);
-                if (dict != null)
+                if (_isLoaded) return;
+
+                var path = Path.Combine(_env.ContentRootPath, "Resources", "i18n");
+                if (!Directory.Exists(path)) return;
+
+                foreach (var file in Directory.GetFiles(path, "*.json"))
                 {
-                    _localizationCache[culture] = dict;
+                    var culture = Path.GetFileNameWithoutExtension(file).ToLower();
+                    var json = File.ReadAllText(file);
+                    var dict = JsonSerializer.Deserialize<Dictionary<string, string>>(json);
+                    if (dict != null)
+                    {
+                        _localizationCache[culture] = dict;
+                    }
                 }
+
+                _isLoaded = true;
             }
         }
     }
+
 }
