@@ -10,4 +10,8 @@
     <ProjectReference Include="..\be-asa-shared-localization\be-asa-shared-localization.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CoreApiResponse" Version="1.0.1" />
+  </ItemGroup>
+
 </Project>
