@@ -39,7 +39,7 @@ namespace be_asa_shared_localization.Localization
 
         private void LoadAllLanguages()
         {
-            var path = Path.Combine(_env.ContentRootPath, "Resources", "i18n");
+            var path = Path.Combine(AppContext.BaseDirectory, "Resources", "i18n");
             if (!Directory.Exists(path)) return;
 
             foreach (var file in Directory.GetFiles(path, "*.json"))
