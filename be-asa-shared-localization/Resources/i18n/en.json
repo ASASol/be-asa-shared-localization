@@ -1,14 +1,14 @@
 ﻿{
   "auth": {
     "INVALID_CREDENTIALS": "Invalid email or password.",
-    "USER_NOT_ACTIVE": "Your account is not active.",
-    "USER_LOCKED_UNTIL": "Your account is locked. Please try again after {0}.",
-    "USER_LOCKED_15_MINUTES": "You have exceeded the allowed number of login attempts. Your account is locked for 15 minutes.",
+    "USER_NOT_ACTIVE": "The account has not been activated.",
+    "USER_LOCKED_UNTIL": "Your account has been locked. Please try again after {0}.",
+    "USER_LOCKED_15_MINUTES": "You have entered the wrong password too many times. Your account has been locked for 15 minutes.",
     "LOGIN_FAILED": "Login failed due to incorrect password.",
     "INVALID_REFRESH_TOKEN": "Invalid refresh token.",
     "BRANCH_ACCESS_DENIED": "You do not have access to this branch.",
     "BRANCH_NOT_FOUND": "Selected branch not found.",
-    "TOKEN_USER_INVALID": "The token is invalid for this user.",
+    "TOKEN_USER_INVALID": "Token is invalid for this user.",
     "USER_NOT_FOUND": "User not found.",
     "LOGIN_SUCCESS": "Login successful.",
     "LOGOUT_SUCCESS": "Logout successful.",
@@ -18,5 +18,84 @@
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Data loaded successfully.",
     "DATA_CREATED": "Data created successfully."
+  },
+  "branch": {
+    "BRANCH_ALREADY_EXISTS": "Branch already exists.",
+    "BRANCH_NOT_FOUND": "Branch not found.",
+    "BRANCH_NAME_EXISTS": "Branch name already exists.",
+    "CANNOT_DELETE_ASSIGNED_BRANCH": "Cannot delete branch because it is assigned to users."
+  },
+  "commandInFunction": {
+    "FUNCTION_NOT_FOUND": "Function does not exist.",
+    "INVALID_COMMANDS": "Some commands are invalid."
+  },
+  "command": {
+    "NOT_FOUND": "Command not found.",
+    "INVALID_COMMAND_NAME": "Invalid CommandName value.",
+    "NAME_EXISTS": "Command name already exists.",
+    "ALREADY_EXISTS": "Command already exists.",
+    "CANNOT_DELETE_IN_USE": "Cannot delete command because it is being used in the system."
+  },
+  "function": {
+    "ACCESS_DENIED": "You do not have access to this function.",
+    "NOT_FOUND": "Function not found."
+  },
+  "permissionGroup": {
+    "TYPE_NOT_FOUND": "Permission group type does not exist.",
+    "NAME_EXISTS": "Permission group name already exists.",
+    "NOT_FOUND": "Permission group does not exist.",
+    "DELETE_ACCESS_DENIED": "You do not have permission to delete this group."
+  },
+  "permissionGroupType": {
+    "NAME_EXISTS": "Permission group type name already exists.",
+    "NOT_FOUND": "Permission group type not found."
+  },
+  "permission": {
+    "USER_NOT_FOUND": "This user does not exist.",
+    "BRANCH_NOT_FOUND": "This branch does not exist.",
+    "INVALID_PERMISSION_GROUPS": "Invalid permission groups.",
+    "CANNOT_ASSIGN_ADMIN_GROUP": "You do not have permission to assign the Admin group.",
+    "USER_CANNOT_BE_ASSIGNED_ADMIN_GROUP": "This user cannot be assigned to the Admin group.",
+    "INVALID_FUNCTIONS": "Invalid functions. Please check again.",
+    "CANNOT_ASSIGN_SUPERADMIN_FUNCTION": "You do not have permission to assign the SuperAdmin function.",
+    "CANNOT_ASSIGN_ADMIN_FUNCTION": "You do not have permission to assign the Admin function.",
+    "USER_CANNOT_RECEIVE_SUPERADMIN_FUNCTION": "Cannot assign the SuperAdmin function to this user.",
+    "USER_CANNOT_RECEIVE_ADMIN_FUNCTION": "Cannot assign the Admin function to this user.",
+    "UPDATE_USER_PERMISSION": "Update user permissions",
+    "PERMISSION_GROUP_LABEL": "Permission group:",
+    "NO_PERMISSION_GROUP_UPDATED": "No permission group was updated.",
+    "FUNCTION_LABEL": "Function:",
+    "PERMISSION_UPDATED": "User permissions updated",
+    "PERMISSION_UPDATED_AT_BRANCH": "at branch."
+  },
+  "role": {
+    "NOT_FOUND": "Role not found.",
+    "NAME_EXISTS": "Role already exists.",
+    "DOES_NOT_EXIST": "Role does not exist.",
+    "CANNOT_DELETE_IN_USE": "Cannot delete role because it is still assigned to users."
+  },
+  "subSystem": {
+    "NAME_EXISTS": "Subsystem name already exists.",
+    "NOT_FOUND": "Subsystem not found.",
+    "CANNOT_DELETE_WHILE_ACTIVE_FUNCTIONS": "Cannot delete subsystem because it still contains active functions.",
+    "ALREADY_EXISTS": "Subsystem already exists."
+  },
+  "userInBranch": {
+    "PASSWORD_CONFIRM_MISMATCH": "Password and ConfirmPassword do not match.",
+    "EMAIL_EXISTS": "Email already exists in the system.",
+    "BRANCHES_NOT_FOUND": "Branches not found.",
+    "CREATE_USER_FAILED": "User creation failed.",
+    "ASSIGN_ROLE_FAILED": "Assigning role failed.",
+    "NEW_PASSWORD_CONFIRM_MISMATCH": "New password and confirmation do not match.",
+    "CANNOT_DELETE_OLD_PASSWORD": "Cannot delete old password.",
+    "CANNOT_SET_NEW_PASSWORD": "Cannot set new password."
+  },
+  "userPermissionGroup": {
+    "INVALID_GROUPS": "Invalid permission groups.",
+    "CANNOT_ASSIGN_SYSTEM_GROUP": "This user cannot be assigned to a system permission group.",
+    "NO_PERMISSION_TO_ASSIGN_SYSTEM_GROUP": "You do not have permission to assign a system permission group."
+  },
+  "userPermission": {
+    "USER_NOT_FOUND": "User not found."
   }
 }
