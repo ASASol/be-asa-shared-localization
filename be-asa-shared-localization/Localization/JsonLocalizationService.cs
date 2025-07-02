@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using be_asa_shared_localization.Enums;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 using System.Text.Json;
 
@@ -17,18 +18,20 @@ namespace be_asa_shared_localization.Localization
             LoadAllLanguages();
         }
 
-        public string this[string key] => Get(key);
+        public string this[LocalizationKey key] => Get(key);
 
-        public string Get(string key, params object[] args)
+        public string Get(LocalizationKey key, params object[] args)
         {
             var culture = GetRequestCulture();
+            var stringKey = key.ToString();
+
             if (_localizationCache.TryGetValue(culture, out var dict) &&
-                dict.TryGetValue(key, out var value))
+                dict.TryGetValue(stringKey, out var value))
             {
                 return string.Format(value, args);
             }
 
-            return key;
+            return stringKey; // fallback if not found
         }
 
         private string GetRequestCulture()

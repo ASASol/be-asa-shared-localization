@@ -1,8 +1,10 @@
-﻿namespace be_asa_shared_localization.Localization
+﻿using be_asa_shared_localization.Enums;
+
+namespace be_asa_shared_localization.Localization
 {
     public interface IJsonLocalizationService
     {
-        string this[string key] { get; }
-        string Get(string key, params object[] args);
+        string this[LocalizationKey key] { get; }
+        string Get(LocalizationKey key, params object[] args);
     }
 }
