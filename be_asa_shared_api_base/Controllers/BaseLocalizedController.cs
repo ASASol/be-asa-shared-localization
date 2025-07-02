@@ -14,9 +14,15 @@ namespace be_asa_shared_api_base.Controllers
             _localizer = localizer;
         }
 
-        protected IActionResult CustomLocalizedResult(string key, object? data = null, HttpStatusCode code = HttpStatusCode.OK)
+        protected IActionResult CustomLocalizedResult(Enum key, object? data = null, HttpStatusCode code = HttpStatusCode.OK)
         {
             var message = _localizer[key];
+            return CustomResult(message, data, code);
+        }
+
+        protected IActionResult CustomLocalizedResult<TEnum>(TEnum key, object? data = null, HttpStatusCode code = HttpStatusCode.OK) where TEnum : Enum
+        {
+            var message = _localizer.Get(key);
             return CustomResult(message, data, code);
         }
     }

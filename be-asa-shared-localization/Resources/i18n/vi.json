@@ -1,8 +1,12 @@
 ﻿{
-  "LOGIN_SUCCESS": "Đăng nhập thành công.",
-  "REFRESH_SUCCESS": "Refresh thành công.",
-  "SELECT_BRANCH_SUCCESS": "Chọn chi nhánh thành công.",
-  "LOGOUT_SUCCESS": "Đăng xuất thành công.",
-  "DATA_LOADED_SUCCESSFULLY": "Load dữ liệu thành công.",
-  "DATA_CREATED": "Tạo dữ liệu thành công."
+  "auth": {
+    "LOGIN_SUCCESS": "Đăng nhập thành công.",
+    "REFRESH_SUCCESS": "Refresh thành công.",
+    "SELECT_BRANCH_SUCCESS": "Chọn chi nhánh thành công.",
+    "LOGOUT_SUCCESS": "Đăng xuất thành công."
+  },
+  "common": {
+    "DATA_LOADED_SUCCESSFULLY": "Load dữ liệu thành công.",
+    "DATA_CREATED": "Tạo dữ liệu thành công."
+  }
 }

@@ -1,5 +1,4 @@
-﻿using be_asa_shared_localization.Enums;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 using System.Text.Json;
 
@@ -18,9 +17,12 @@ namespace be_asa_shared_localization.Localization
             LoadAllLanguages();
         }
 
-        public string this[LocalizationKey key] => Get(key);
+        public string this[Enum key] => Get(key);
 
-        public string Get(LocalizationKey key, params object[] args)
+        public string Get<TEnum>(TEnum key, params object[] args) where TEnum : Enum
+            => Get((Enum)(object)key, args);
+
+        private string Get(Enum key, params object[] args)
         {
             var culture = GetRequestCulture();
             var stringKey = key.ToString();
@@ -31,7 +33,7 @@ namespace be_asa_shared_localization.Localization
                 return string.Format(value, args);
             }
 
-            return stringKey; // fallback if not found
+            return stringKey; // fallback
         }
 
         private string GetRequestCulture()
