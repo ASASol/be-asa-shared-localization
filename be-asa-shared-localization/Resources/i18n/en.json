@@ -74,7 +74,15 @@
     "TYPE_NOT_FOUND": "Permission group type does not exist.",
     "NAME_EXISTS": "Permission group name already exists.",
     "NOT_FOUND": "Permission group does not exist.",
-    "DELETE_ACCESS_DENIED": "You do not have permission to delete this group."
+    "DELETE_ACCESS_DENIED": "You do not have permission to delete this group.",
+    "CREATE_ADMIN_GROUP_NO_PERMISSION": "You do not have permission to create an admin group.",
+    "CREATE_CONTAINS_ADMIN_FUNCTION_NO_PERMISSION": "You are not allowed to use admin functions.",
+    "CREATE_ADMIN_GROUP_REQUIRE_ADMIN_FUNCTIONS": "When marking the group as admin, all functions must be admin.",
+    "CREATE_ADMIN_FUNCTIONS_REQUIRE_ADMIN_GROUP": "You are using admin functions but did not mark the group as admin.",
+    "UPDATE_GROUP_NO_PERMISSION": "You do not have permission to update the group.",
+    "UPDATE_ADMIN_GROUP_NO_PERMISSION": "You do not have permission to mark the group as admin.",
+    "UPDATE_ADMIN_GROUP_REQUIRE_ADMIN_FUNCTIONS": "When marking the group as admin, all functions must be admin.",
+    "UPDATE_ADMIN_FUNCTIONS_REQUIRE_ADMIN_GROUP": "You are using admin functions but did not mark the group as admin."
   },
   "permissionGroupType": {
     "NAME_EXISTS": "Permission group type name already exists.",

@@ -74,7 +74,15 @@
     "TYPE_NOT_FOUND": "Không tồn tại loại nhóm quyền.",
     "NAME_EXISTS": "Tên nhóm quyền đã tồn tại.",
     "NOT_FOUND": "Không tồn tại nhóm quyền.",
-    "DELETE_ACCESS_DENIED": "Bạn không có quyền xoá nhóm quyền."
+    "DELETE_ACCESS_DENIED": "Bạn không có quyền xoá nhóm quyền.",
+    "CREATE_ADMIN_GROUP_NO_PERMISSION": "Bạn không có quyền tạo nhóm quyền admin.",
+    "CREATE_CONTAINS_ADMIN_FUNCTION_NO_PERMISSION": "Bạn không được sử dụng chức năng admin.",
+    "CREATE_ADMIN_GROUP_REQUIRE_ADMIN_FUNCTIONS": "Khi đánh dấu nhóm quyền là admin, tất cả chức năng phải là admin.",
+    "CREATE_ADMIN_FUNCTIONS_REQUIRE_ADMIN_GROUP": "Bạn đang sử dụng chức năng admin nhưng không đánh dấu là nhóm quyền admin.",
+    "UPDATE_GROUP_NO_PERMISSION": "Bạn không có quyền cập nhật nhóm quyền.",
+    "UPDATE_ADMIN_GROUP_NO_PERMISSION": "Bạn không có quyền đánh dấu nhóm quyền là admin.",
+    "UPDATE_ADMIN_GROUP_REQUIRE_ADMIN_FUNCTIONS": "Khi đánh dấu nhóm quyền là admin, tất cả chức năng phải là admin.",
+    "UPDATE_ADMIN_FUNCTIONS_REQUIRE_ADMIN_GROUP": "Bạn đang sử dụng chức năng admin nhưng không đánh dấu là nhóm quyền admin."
   },
   "permissionGroupType": {
     "NAME_EXISTS": "Tên loại nhóm quyền đã tồn tại.",
