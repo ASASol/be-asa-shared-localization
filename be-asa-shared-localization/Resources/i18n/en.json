@@ -90,18 +90,11 @@
     "CANNOT_ASSIGN_SUPERADMIN_FUNCTION": "You do not have permission to assign the SuperAdmin function.",
     "CANNOT_ASSIGN_ADMIN_FUNCTION": "You do not have permission to assign the Admin function.",
     "USER_CANNOT_RECEIVE_SUPERADMIN_FUNCTION": "Cannot assign the SuperAdmin function to this user.",
-    "USER_CANNOT_RECEIVE_ADMIN_FUNCTION": "Cannot assign the Admin function to this user.",
-    "UPDATE_USER_PERMISSION": "Update user permissions",
-    "PERMISSION_GROUP_LABEL": "Permission group:",
-    "NO_PERMISSION_GROUP_UPDATED": "No permission group was updated.",
-    "FUNCTION_LABEL": "Function:",
-    "PERMISSION_UPDATED": "User permissions updated",
-    "PERMISSION_UPDATED_AT_BRANCH": "at branch."
+    "USER_CANNOT_RECEIVE_ADMIN_FUNCTION": "Cannot assign the Admin function to this user."
   },
   "role": {
     "NOT_FOUND": "Role not found.",
     "NAME_EXISTS": "Role already exists.",
-    "DOES_NOT_EXIST": "Role does not exist.",
     "CANNOT_DELETE_IN_USE": "Cannot delete role because it is still assigned to users."
   },
   "subSystem": {

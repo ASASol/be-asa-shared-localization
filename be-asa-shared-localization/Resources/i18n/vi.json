@@ -90,18 +90,11 @@
     "CANNOT_ASSIGN_SUPERADMIN_FUNCTION": "Bạn không có quyền gán chức năng SuperAdmin.",
     "CANNOT_ASSIGN_ADMIN_FUNCTION": "Bạn không có quyền gán chức năng Admin.",
     "USER_CANNOT_RECEIVE_SUPERADMIN_FUNCTION": "Không thể gán chức năng SuperAdmin cho người dùng này.",
-    "USER_CANNOT_RECEIVE_ADMIN_FUNCTION": "Không thể gán chức năng Admin cho người dùng này.",
-    "UPDATE_USER_PERMISSION": "Cập nhật quyền người dùng",
-    "PERMISSION_GROUP_LABEL": "Nhóm quyền:",
-    "NO_PERMISSION_GROUP_UPDATED": "Không có nhóm quyền nào được cập nhật.",
-    "FUNCTION_LABEL": "Chức năng:",
-    "PERMISSION_UPDATED": "Đã cập nhật quyền cho người dùng",
-    "PERMISSION_UPDATED_AT_BRANCH": "tại chi nhánh."
+    "USER_CANNOT_RECEIVE_ADMIN_FUNCTION": "Không thể gán chức năng Admin cho người dùng này."
   },
   "role": {
     "NOT_FOUND": "Không tìm thấy vai trò.",
     "NAME_EXISTS": "Vai trò đã tồn tại.",
-    "DOES_NOT_EXIST": "Vai trò không tồn tại.",
     "CANNOT_DELETE_IN_USE": "Không thể xóa vai trò vì còn tồn tại người dùng."
   },
   "subSystem": {
