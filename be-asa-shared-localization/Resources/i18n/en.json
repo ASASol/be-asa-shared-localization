@@ -37,7 +37,8 @@
     "DATA_UPDATED": "Data updated successfully.",
     "DATA_DELETED": "Data deleted successfully.",
     "UNHANDLED_ERROR": "An unexpected error has occurred.",
-    "NAME_CAN_NOT_EMPTY" : "Name can not empty."
+    "NAME_CAN_NOT_EMPTY": "Name can not empty.",
+    "LOG_NOT_FOUND": "Log not found"
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Branch already exists.",

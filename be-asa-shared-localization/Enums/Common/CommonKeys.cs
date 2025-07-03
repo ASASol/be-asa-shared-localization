@@ -10,6 +10,7 @@
         DATA_UPDATED,
         DATA_DELETED,
         UNHANDLED_ERROR,
-        NAME_CAN_NOT_EMPTY
+        NAME_CAN_NOT_EMPTY,
+        LOG_NOT_FOUND
     }
 }

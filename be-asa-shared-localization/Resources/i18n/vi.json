@@ -37,7 +37,8 @@
     "DATA_UPDATED": "Cập nhật dữ liệu thành công.",
     "DATA_DELETED": "Xóa dữ liệu thành công.",
     "UNHANDLED_ERROR": "Đã xảy ra lỗi không xác định.",
-    "NAME_CAN_NOT_EMPTY": "Tên không được trống"
+    "NAME_CAN_NOT_EMPTY": "Tên không được trống",
+    "LOG_NOT_FOUND" : "Không tìm thấy log"
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Chi nhánh đã tồn tại.",
