@@ -46,7 +46,17 @@
   },
   "commandInFunction": {
     "FUNCTION_NOT_FOUND": "Function does not exist.",
-    "INVALID_COMMANDS": "Some commands are invalid."
+    "INVALID_COMMANDS": "Some commands are invalid.",
+    "ALREADY_EXISTS": "Function already exists.",
+    "INVALID_URL": "Invalid URL.",
+    "PARENT_NOT_FOUND": "ParentId does not exist.",
+    "INVALID_FUNCTION_CODE": "Invalid function code.",
+    "INVALID_SYSTEM_TO_NON_SYSTEM": "Cannot move a system function to a non-system subsystem.",
+    "INVALID_ADMIN_TO_NON_ADMIN": "Cannot move an admin function to a non-admin subsystem.",
+    "INVALID_USER_TO_ADMIN": "Cannot move a normal function into an admin or system subsystem.",
+    "FUNCTION_IN_USE": "Cannot delete function because it is currently in use.",
+    "UNAUTHORIZED_DELETE_SUPERADMIN": "You are not authorized to delete a system function.",
+    "UNAUTHORIZED_DELETE_ADMIN": "You are not authorized to delete an admin function."
   },
   "command": {
     "NOT_FOUND": "Command not found.",

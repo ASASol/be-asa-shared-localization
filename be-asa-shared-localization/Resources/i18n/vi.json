@@ -57,7 +57,17 @@
   },
   "function": {
     "ACCESS_DENIED": "Bạn không có quyền truy cập chức năng này.",
-    "NOT_FOUND": "Không tìm thấy chức năng."
+    "NOT_FOUND": "Không tìm thấy chức năng.",
+    "ALREADY_EXISTS": "Chức năng đã tồn tại.",
+    "INVALID_URL": "Url không hợp lệ.",
+    "PARENT_NOT_FOUND": "Chức năng cha không tồn tại.",
+    "INVALID_FUNCTION_CODE": "Chức năng không hợp lệ.",
+    "INVALID_SYSTEM_TO_NON_SYSTEM": "Không thể chuyển chức năng hệ thống sang phân hệ không phải hệ thống.",
+    "INVALID_ADMIN_TO_NON_ADMIN": "Không thể chuyển chức năng admin sang phân hệ không phải admin.",
+    "INVALID_USER_TO_ADMIN": "Không thể chuyển chức năng thường vào phân hệ quản trị hoặc admin.",
+    "FUNCTION_IN_USE": "Không thể xóa chức năng vì đang được sử dụng.",
+    "UNAUTHORIZED_DELETE_SUPERADMIN": "Bạn không có quyền xóa chức năng hệ thống.",
+    "UNAUTHORIZED_DELETE_ADMIN": "Bạn không có quyền xóa chức năng admin."
   },
   "permissionGroup": {
     "TYPE_NOT_FOUND": "Không tồn tại loại nhóm quyền.",
