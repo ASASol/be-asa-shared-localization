@@ -36,7 +36,8 @@
     "DATA_CREATED": "Tạo dữ liệu thành công.",
     "DATA_UPDATED": "Cập nhật dữ liệu thành công.",
     "DATA_DELETED": "Xóa dữ liệu thành công.",
-    "UNHANDLED_ERROR": "Đã xảy ra lỗi không xác định."
+    "UNHANDLED_ERROR": "Đã xảy ra lỗi không xác định.",
+    "NAME_CAN_NOT_EMPTY": "Tên không được trống"
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Chi nhánh đã tồn tại.",
@@ -82,7 +83,9 @@
     "UPDATE_GROUP_NO_PERMISSION": "Bạn không có quyền cập nhật nhóm quyền.",
     "UPDATE_ADMIN_GROUP_NO_PERMISSION": "Bạn không có quyền đánh dấu nhóm quyền là admin.",
     "UPDATE_ADMIN_GROUP_REQUIRE_ADMIN_FUNCTIONS": "Khi đánh dấu nhóm quyền là admin, tất cả chức năng phải là admin.",
-    "UPDATE_ADMIN_FUNCTIONS_REQUIRE_ADMIN_GROUP": "Bạn đang sử dụng chức năng admin nhưng không đánh dấu là nhóm quyền admin."
+    "UPDATE_ADMIN_FUNCTIONS_REQUIRE_ADMIN_GROUP": "Bạn đang sử dụng chức năng admin nhưng không đánh dấu là nhóm quyền admin.",
+    "FUNCTION_OR_COMMAND_NOT_FOUND": "Chức năng hoặc hành động không tồn tại.",
+    "INVALID_FUNCTION_COMMAND_RELATION": "Chức năng '{0}' không có quyền '{1}'."
   },
   "permissionGroupType": {
     "NAME_EXISTS": "Tên loại nhóm quyền đã tồn tại.",

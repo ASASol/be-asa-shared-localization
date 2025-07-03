@@ -36,7 +36,8 @@
     "DATA_CREATED": "Data created successfully.",
     "DATA_UPDATED": "Data updated successfully.",
     "DATA_DELETED": "Data deleted successfully.",
-    "UNHANDLED_ERROR": "An unexpected error has occurred."
+    "UNHANDLED_ERROR": "An unexpected error has occurred.",
+    "NAME_CAN_NOT_EMPTY" : "Name can not empty."
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Branch already exists.",
@@ -82,7 +83,9 @@
     "UPDATE_GROUP_NO_PERMISSION": "You do not have permission to update the group.",
     "UPDATE_ADMIN_GROUP_NO_PERMISSION": "You do not have permission to mark the group as admin.",
     "UPDATE_ADMIN_GROUP_REQUIRE_ADMIN_FUNCTIONS": "When marking the group as admin, all functions must be admin.",
-    "UPDATE_ADMIN_FUNCTIONS_REQUIRE_ADMIN_GROUP": "You are using admin functions but did not mark the group as admin."
+    "UPDATE_ADMIN_FUNCTIONS_REQUIRE_ADMIN_GROUP": "You are using admin functions but did not mark the group as admin.",
+    "FUNCTION_OR_COMMAND_NOT_FOUND": "One or more functions or commands do not exist.",
+    "INVALID_FUNCTION_COMMAND_RELATION": "Function '{0}' does not contain command '{1}'."
   },
   "permissionGroupType": {
     "NAME_EXISTS": "Permission group type name already exists.",

@@ -9,6 +9,7 @@
         DATA_CREATED,
         DATA_UPDATED,
         DATA_DELETED,
-        UNHANDLED_ERROR
+        UNHANDLED_ERROR,
+        NAME_CAN_NOT_EMPTY
     }
 }
