@@ -17,11 +17,17 @@
     "USER_NOT_LOGGED_IN": "Bạn chưa đăng nhập",
     "BRANCH_INVALID": "Người dùng không có quyền trên chi nhánh nào.",
     "PERMISSION_CHECK_SERVICE_MISSING": "Không thể lấy dịch vụ kiểm tra quyền.",
-    "NO_PERMISSION_FOR_FUNCTION_COMMAND": "Bạn không có quyền {0} trên chức năng {1}."
+    "NO_PERMISSION_FOR_FUNCTION_COMMAND": "Bạn không có quyền {0} trên chức năng {1}.",
+    "LOCALIZATION_SERVICE_MISSING": "Không thể lấy dịch vụ đa ngôn ngữ."
   },
   "common": {
-    "DATA_LOADED_SUCCESSFULLY": "Load dữ liệu thành công.",
-    "DATA_CREATED": "Tạo dữ liệu thành công."
+    "DATA_LOADED_SUCCESSFULLY": "Tải dữ liệu thành công.",
+    "DATA_LOADED_FAILED": "Tải dữ liệu thất bại.",
+    "DATA_EXPORT_SUCCESSFULLY": "Xuất dữ liệu thành công.",
+    "DATA_EXPORT_FAILED": "Xuất dữ liệu thất bại.",
+    "DATA_CREATED": "Tạo dữ liệu thành công.",
+    "DATA_UPDATED": "Cập nhật dữ liệu thành công.",
+    "DATA_DELETED": "Xóa dữ liệu thành công."
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Chi nhánh đã tồn tại.",

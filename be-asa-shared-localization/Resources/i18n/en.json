@@ -17,11 +17,17 @@
     "USER_NOT_LOGGED_IN": "You are not logged in",
     "BRANCH_INVALID": "User does not have access to any branch.",
     "PERMISSION_CHECK_SERVICE_MISSING": "Cannot resolve permission check service.",
-    "NO_PERMISSION_FOR_FUNCTION_COMMAND": "You do not have permission to {0} on function {1}."
+    "NO_PERMISSION_FOR_FUNCTION_COMMAND": "You do not have permission to {0} on function {1}.",
+    "LOCALIZATION_SERVICE_MISSING": "Unable to resolve localization service."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Data loaded successfully.",
-    "DATA_CREATED": "Data created successfully."
+    "DATA_LOADED_FAILED": "Data loading failed.",
+    "DATA_EXPORT_SUCCESSFULLY": "Data exported successfully.",
+    "DATA_EXPORT_FAILED": "Data export failed.",
+    "DATA_CREATED": "Data created successfully.",
+    "DATA_UPDATED": "Data updated successfully.",
+    "DATA_DELETED": "Data deleted successfully."
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Branch already exists.",
