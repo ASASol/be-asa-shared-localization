@@ -13,7 +13,11 @@
     "LOGIN_SUCCESS": "Login successful.",
     "LOGOUT_SUCCESS": "Logout successful.",
     "REFRESH_SUCCESS": "Token refreshed successfully.",
-    "SELECT_BRANCH_SUCCESS": "Branch selected successfully."
+    "SELECT_BRANCH_SUCCESS": "Branch selected successfully.",
+    "USER_NOT_LOGGED_IN": "You are not logged in",
+    "BRANCH_INVALID": "User does not have access to any branch.",
+    "PERMISSION_CHECK_SERVICE_MISSING": "Cannot resolve permission check service.",
+    "NO_PERMISSION_FOR_FUNCTION_COMMAND": "You do not have permission to {0} on function {1}."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Data loaded successfully.",
