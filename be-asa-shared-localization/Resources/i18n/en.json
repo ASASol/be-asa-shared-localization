@@ -18,7 +18,8 @@
     "BRANCH_INVALID": "User does not have access to any branch.",
     "PERMISSION_CHECK_SERVICE_MISSING": "Cannot resolve permission check service.",
     "NO_PERMISSION_FOR_FUNCTION_COMMAND": "You do not have permission to {0} on function {1}.",
-    "LOCALIZATION_SERVICE_MISSING": "Unable to resolve localization service."
+    "LOCALIZATION_SERVICE_MISSING": "Unable to resolve localization service.",
+    "ACCESS_DENIED": "You do not have permission to access this resource."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Data loaded successfully.",

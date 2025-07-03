@@ -18,7 +18,8 @@
     "BRANCH_INVALID": "Người dùng không có quyền trên chi nhánh nào.",
     "PERMISSION_CHECK_SERVICE_MISSING": "Không thể lấy dịch vụ kiểm tra quyền.",
     "NO_PERMISSION_FOR_FUNCTION_COMMAND": "Bạn không có quyền {0} trên chức năng {1}.",
-    "LOCALIZATION_SERVICE_MISSING": "Không thể lấy dịch vụ đa ngôn ngữ."
+    "LOCALIZATION_SERVICE_MISSING": "Không thể lấy dịch vụ đa ngôn ngữ.",
+    "ACCESS_DENIED": "Bạn không có quyền truy cập vào tài nguyên này."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Tải dữ liệu thành công.",
