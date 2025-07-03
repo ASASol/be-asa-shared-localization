@@ -19,7 +19,14 @@
     "PERMISSION_CHECK_SERVICE_MISSING": "Không thể lấy dịch vụ kiểm tra quyền.",
     "NO_PERMISSION_FOR_FUNCTION_COMMAND": "Bạn không có quyền {0} trên chức năng {1}.",
     "LOCALIZATION_SERVICE_MISSING": "Không thể lấy dịch vụ đa ngôn ngữ.",
-    "ACCESS_DENIED": "Bạn không có quyền truy cập vào tài nguyên này."
+    "ACCESS_DENIED": "Bạn không có quyền truy cập vào tài nguyên này.",
+    "AUTH_HEADER_MISSING": "Thiếu header Authorization.",
+    "INVALID_AUTH_HEADER_FORMAT": "Định dạng Authorization header không hợp lệ.",
+    "INVALID_JWT_FORMAT": "Định dạng JWT token không hợp lệ.",
+    "USER_ID_CLAIM_MISSING": "Không tìm thấy thông tin người dùng trong token.",
+    "TOKEN_PARSE_ERROR": "Lỗi xử lý token: {0}",
+    "BRANCH_CLAIM_REQUIRED": "Vui lòng chọn chi nhánh.",
+    "BRANCH_CLAIM_INVALID": "Claim chi nhánh không hợp lệ."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Tải dữ liệu thành công.",

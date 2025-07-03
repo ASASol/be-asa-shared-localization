@@ -19,7 +19,14 @@
     "PERMISSION_CHECK_SERVICE_MISSING": "Cannot resolve permission check service.",
     "NO_PERMISSION_FOR_FUNCTION_COMMAND": "You do not have permission to {0} on function {1}.",
     "LOCALIZATION_SERVICE_MISSING": "Unable to resolve localization service.",
-    "ACCESS_DENIED": "You do not have permission to access this resource."
+    "ACCESS_DENIED": "You do not have permission to access this resource.",
+    "AUTH_HEADER_MISSING": "Authorization header is missing.",
+    "INVALID_AUTH_HEADER_FORMAT": "Invalid Authorization header format.",
+    "INVALID_JWT_FORMAT": "Invalid JWT token format.",
+    "USER_ID_CLAIM_MISSING": "User ID claim not found in token.",
+    "TOKEN_PARSE_ERROR": "Error parsing token: {0}",
+    "BRANCH_CLAIM_REQUIRED": "Please select a branch.",
+    "BRANCH_CLAIM_INVALID": "Invalid branch claim."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Data loaded successfully.",
