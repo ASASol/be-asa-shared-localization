@@ -9,5 +9,6 @@
         DATA_CREATED,
         DATA_UPDATED,
         DATA_DELETED,
+        UNHANDLED_ERROR
     }
 }

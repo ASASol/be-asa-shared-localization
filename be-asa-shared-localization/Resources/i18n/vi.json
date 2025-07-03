@@ -28,7 +28,8 @@
     "DATA_EXPORT_FAILED": "Xuất dữ liệu thất bại.",
     "DATA_CREATED": "Tạo dữ liệu thành công.",
     "DATA_UPDATED": "Cập nhật dữ liệu thành công.",
-    "DATA_DELETED": "Xóa dữ liệu thành công."
+    "DATA_DELETED": "Xóa dữ liệu thành công.",
+    "UNHANDLED_ERROR": "Đã xảy ra lỗi không xác định."
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Chi nhánh đã tồn tại.",

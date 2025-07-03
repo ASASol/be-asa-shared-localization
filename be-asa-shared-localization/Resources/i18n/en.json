@@ -28,7 +28,8 @@
     "DATA_EXPORT_FAILED": "Data export failed.",
     "DATA_CREATED": "Data created successfully.",
     "DATA_UPDATED": "Data updated successfully.",
-    "DATA_DELETED": "Data deleted successfully."
+    "DATA_DELETED": "Data deleted successfully.",
+    "UNHANDLED_ERROR": "An unexpected error has occurred."
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Branch already exists.",
