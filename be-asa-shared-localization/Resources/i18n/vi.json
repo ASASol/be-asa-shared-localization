@@ -26,7 +26,9 @@
     "USER_ID_CLAIM_MISSING": "Không tìm thấy thông tin người dùng trong token.",
     "TOKEN_PARSE_ERROR": "Lỗi xử lý token: {0}",
     "BRANCH_CLAIM_REQUIRED": "Vui lòng chọn chi nhánh.",
-    "BRANCH_CLAIM_INVALID": "Claim chi nhánh không hợp lệ."
+    "BRANCH_CLAIM_INVALID": "Claim chi nhánh không hợp lệ.",
+    "MODULE_NOT_FOUND": "Không tìm thấy module.",
+    "MODULE_ACCESS_DENIED": "Bạn không có quyền truy cập module này."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Tải dữ liệu thành công.",

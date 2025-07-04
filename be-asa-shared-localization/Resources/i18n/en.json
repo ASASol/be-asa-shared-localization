@@ -26,7 +26,9 @@
     "USER_ID_CLAIM_MISSING": "User ID claim not found in token.",
     "TOKEN_PARSE_ERROR": "Error parsing token: {0}",
     "BRANCH_CLAIM_REQUIRED": "Please select a branch.",
-    "BRANCH_CLAIM_INVALID": "Invalid branch claim."
+    "BRANCH_CLAIM_INVALID": "Invalid branch claim.",
+    "MODULE_NOT_FOUND": "Module not found.",
+    "MODULE_ACCESS_DENIED": "You do not have access to this module."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Data loaded successfully.",
