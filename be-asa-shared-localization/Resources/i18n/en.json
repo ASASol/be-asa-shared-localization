@@ -141,5 +141,10 @@
     "NAME_EXISTS": "Module name already exists.",
     "ALREADY_EXISTS": "The module already exists.",
     "CANNOT_DELETE_IN_USE": "Cannot delete this module because it is being used."
+  },
+  "userSetting": {
+    "NOT_FOUND": "User setting not found.",
+    "ALREADY_EXISTS": "The user setting already exists.",
+    "CANNOT_DELETE": "This user setting cannot be deleted because it is in use."
   }
 }
