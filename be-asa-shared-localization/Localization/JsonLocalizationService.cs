@@ -41,10 +41,19 @@ namespace be_asa_shared_localization.Localization
         private string GetRequestCulture()
         {
             var culture = _httpContextAccessor.HttpContext?.Request.Headers["Accept-Language"].ToString();
-            return string.IsNullOrWhiteSpace(culture)
-                ? "vi"
-                : culture.Split(',')[0].Trim().ToLower();
+            if (string.IsNullOrWhiteSpace(culture)) return "vi";
+
+            var lang = culture.Split(',')[0].Trim().ToLower();
+            return lang switch
+            {
+                "vi-vn" => "vi",
+                "en-us" => "en",
+                "vi" => "vi",
+                "en" => "en",
+                _ => "vi" // fallback nếu không khớp
+            };
         }
+
 
         private void LoadAllLanguages()
         {
