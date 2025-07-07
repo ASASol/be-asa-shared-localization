@@ -134,5 +134,12 @@
   },
   "userPermission": {
     "USER_NOT_FOUND": "User not found."
+  },
+  "module": {
+    "NOT_FOUND": "Module not found.",
+    "INVALID_MODULE_NAME": "Invalid module name.",
+    "NAME_EXISTS": "Module name already exists.",
+    "ALREADY_EXISTS": "The module already exists.",
+    "CANNOT_DELETE_IN_USE": "Cannot delete this module because it is being used."
   }
 }
