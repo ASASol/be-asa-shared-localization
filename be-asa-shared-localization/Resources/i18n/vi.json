@@ -154,6 +154,7 @@
     "EMAIL_SEND_FAILED": "Gửi email thất bại",
     "EMAIL_SAVE_LOG_FAILED": "Gửi mail xong nhưng không thể lưu log",
     "EMAIL_REQUIRED": "Email không được để trống.",
-    "EMAIL_INVALID": "Email hoặc Tài khoản SMTP không hợp lệ."
+    "EMAIL_INVALID": "Email hoặc Tài khoản SMTP không hợp lệ.",
+    "EMAIL_CONFIG_ALREADY_EXISTS": "Cấu hình email đã tồn tại."
   }
 }
