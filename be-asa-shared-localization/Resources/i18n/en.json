@@ -146,5 +146,11 @@
     "NOT_FOUND": "User setting not found.",
     "ALREADY_EXISTS": "The user setting already exists.",
     "CANNOT_DELETE": "This user setting cannot be deleted because it is in use."
+  },
+  "email": {
+    "EMAIL_CONFIG_NOT_FOUND": "Email configuration not found",
+    "EMAIL_TEMPLATE_NOT_FOUND": "Email template not found",
+    "EMAIL_SEND_SUCCESS": "Email sent successfully",
+    "EMAIL_SEND_FAILED": "Failed to send email"
   }
 }

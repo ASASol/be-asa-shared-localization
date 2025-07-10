@@ -146,5 +146,11 @@
     "NOT_FOUND": "Không tìm thấy thiết lập người dùng.",
     "ALREADY_EXISTS": "Thiết lập người dùng đã tồn tại.",
     "CANNOT_DELETE": "Không thể xóa thiết lập người dùng này vì đang được sử dụng."
+  },
+  "email": {
+    "EMAIL_CONFIG_NOT_FOUND": "Không tìm thấy cấu hình email",
+    "EMAIL_TEMPLATE_NOT_FOUND": "Không tìm thấy template email",
+    "EMAIL_SEND_SUCCESS": "Gửi email thành công",
+    "EMAIL_SEND_FAILED": "Gửi email thất bại"
   }
 }
