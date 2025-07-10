@@ -152,6 +152,8 @@
     "EMAIL_TEMPLATE_NOT_FOUND": "Email template not found",
     "EMAIL_SEND_SUCCESS": "Email sent successfully",
     "EMAIL_SEND_FAILED": "Failed to send email",
-    "EMAIL_SAVE_LOG_FAILED": "Email sent but failed to save log"
+    "EMAIL_SAVE_LOG_FAILED": "Email sent but failed to save log",
+    "EMAIL_REQUIRED": "Email is required.",
+    "EMAIL_INVALID": "Invalid email address."
   }
 }
