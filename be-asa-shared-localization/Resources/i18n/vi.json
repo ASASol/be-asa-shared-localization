@@ -155,6 +155,7 @@
     "EMAIL_SAVE_LOG_FAILED": "Gửi mail xong nhưng không thể lưu log",
     "EMAIL_REQUIRED": "Email không được để trống.",
     "EMAIL_INVALID": "Email hoặc Tài khoản SMTP không hợp lệ.",
-    "EMAIL_CONFIG_ALREADY_EXISTS": "Cấu hình email đã tồn tại."
+    "EMAIL_CONFIG_ALREADY_EXISTS": "Cấu hình email đã tồn tại.",
+    "CANNOT_DELETE_DEFAULT_EMAIL_CONFIG": "Không thể xoá cấu hình email mặc định."
   }
 }

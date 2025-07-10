@@ -155,6 +155,7 @@
     "EMAIL_SAVE_LOG_FAILED": "Email sent but failed to save log",
     "EMAIL_REQUIRED": "Email is required.",
     "EMAIL_INVALID": "Invalid email address or username.",
-    "EMAIL_CONFIG_ALREADY_EXISTS": "Email configuration already exists."
+    "EMAIL_CONFIG_ALREADY_EXISTS": "Email configuration already exists.",
+    "CANNOT_DELETE_DEFAULT_EMAIL_CONFIG": "Cannot delete default email configuration."
   }
 }
