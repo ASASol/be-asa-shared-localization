@@ -163,6 +163,8 @@
     "PLACEHOLDER_MISSING_IN_TEMPLATE": "The subject or body content is missing the placeholder: {0}",
     "PLACEHOLDER_DUPLICATED": "Duplicate placeholders are not allowed.",
     "PLACEHOLDER_INVALID": "Invalid placeholder ID.",
-    "PLACEHOLDER_NOT_FOUND": "One or more placeholders do not exist."
+    "PLACEHOLDER_NOT_FOUND": "One or more placeholders do not exist.",
+    "PLACEHOLDER_REQUIRED": "Placeholder list must not be empty.",
+    "PLACEHOLDER_NOT_INCLUDED": "The following placeholders appear in the template but were not selected: {0}."
   }
 }

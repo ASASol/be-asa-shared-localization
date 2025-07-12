@@ -163,6 +163,8 @@
     "PLACEHOLDER_MISSING_IN_TEMPLATE": "Nội dung tiêu đề hoặc nội dung email thiếu placeholder: {0}",
     "PLACEHOLDER_DUPLICATED": "Không được chọn placeholder trùng lặp.",
     "PLACEHOLDER_INVALID": "Placeholder không hợp lệ.",
-    "PLACEHOLDER_NOT_FOUND": "Một hoặc nhiều placeholder không tồn tại."
+    "PLACEHOLDER_NOT_FOUND": "Một hoặc nhiều placeholder không tồn tại.",
+    "PLACEHOLDER_REQUIRED": "Danh sách placeholder không được để trống.",
+    "PLACEHOLDER_NOT_INCLUDED": "Các placeholder sau xuất hiện trong nội dung nhưng chưa được chọn: {0}."
   }
 }
