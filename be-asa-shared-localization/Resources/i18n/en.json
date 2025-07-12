@@ -160,6 +160,6 @@
     "TEMPLATE_NOT_FOUND": "Template not found.",
     "TEMPLATE_ALREADY_EXISTS": "Template name already exists.",
     "TEMPLATE_GROUP_NOT_FOUND": "Template group not found.",
-    "PLACEHOLDER_MISSING_IN_TEMPLATE": "The subject or body content is missing the placeholder: {Key}"
+    "PLACEHOLDER_MISSING_IN_TEMPLATE": "The subject or body content is missing the placeholder: {0}"
   }
 }
