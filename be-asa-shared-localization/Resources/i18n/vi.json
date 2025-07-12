@@ -160,6 +160,9 @@
     "TEMPLATE_NOT_FOUND": "Template không tồn tại.",
     "TEMPLATE_ALREADY_EXISTS": "Tên template đã tồn tại.",
     "TEMPLATE_GROUP_NOT_FOUND": "Nhóm template không tồn tại.",
-    "PLACEHOLDER_MISSING_IN_TEMPLATE": "Nội dung tiêu đề hoặc nội dung email thiếu placeholder: {0}"
+    "PLACEHOLDER_MISSING_IN_TEMPLATE": "Nội dung tiêu đề hoặc nội dung email thiếu placeholder: {0}",
+    "PLACEHOLDER_DUPLICATED": "Không được chọn placeholder trùng lặp.",
+    "PLACEHOLDER_INVALID": "Placeholder không hợp lệ.",
+    "PLACEHOLDER_NOT_FOUND": "Một hoặc nhiều placeholder không tồn tại."
   }
 }
