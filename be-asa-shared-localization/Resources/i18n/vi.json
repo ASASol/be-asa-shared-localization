@@ -165,6 +165,7 @@
     "PLACEHOLDER_INVALID": "Placeholder không hợp lệ.",
     "PLACEHOLDER_NOT_FOUND": "Một hoặc nhiều placeholder không tồn tại.",
     "PLACEHOLDER_REQUIRED": "Danh sách placeholder không được để trống.",
-    "PLACEHOLDER_NOT_INCLUDED": "Các placeholder sau xuất hiện trong nội dung nhưng chưa được chọn: {0}."
+    "PLACEHOLDER_NOT_INCLUDED": "Các placeholder sau xuất hiện trong nội dung nhưng chưa được chọn: {0}.",
+    "CANNOT_DELETE_DEFAULT_TEMPLATE": "Không thể xoá template mặc định."
   }
 }
