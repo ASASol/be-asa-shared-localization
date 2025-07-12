@@ -159,6 +159,7 @@
     "CANNOT_DELETE_DEFAULT_EMAIL_CONFIG": "Cannot delete default email configuration.",
     "TEMPLATE_NOT_FOUND": "Template not found.",
     "TEMPLATE_ALREADY_EXISTS": "Template name already exists.",
-    "TEMPLATE_GROUP_NOT_FOUND": "Template group not found."
+    "TEMPLATE_GROUP_NOT_FOUND": "Template group not found.",
+    "PLACEHOLDER_MISSING_IN_TEMPLATE": "The subject or body content is missing the placeholder: {Key}"
   }
 }
