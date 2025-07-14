@@ -46,7 +46,8 @@
     "BRANCH_ALREADY_EXISTS": "Chi nhánh đã tồn tại.",
     "BRANCH_NOT_FOUND": "Không tìm thấy chi nhánh.",
     "BRANCH_NAME_EXISTS": "Tên chi nhánh đã tồn tại.",
-    "CANNOT_DELETE_ASSIGNED_BRANCH": "Không thể xoá chi nhánh vì đang được phân quyền cho người dùng."
+    "CANNOT_DELETE_ASSIGNED_BRANCH": "Không thể xoá chi nhánh vì đang được phân quyền cho người dùng.",
+    "BRANCH_SETTING_NOT_FOUND": "Không tìm thấy cấu hình chi nhánh"
   },
   "commandInFunction": {
     "FUNCTION_NOT_FOUND": "Chức năng không tồn tại.",

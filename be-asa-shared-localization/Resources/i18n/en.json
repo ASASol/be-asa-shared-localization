@@ -46,7 +46,8 @@
     "BRANCH_ALREADY_EXISTS": "Branch already exists.",
     "BRANCH_NOT_FOUND": "Branch not found.",
     "BRANCH_NAME_EXISTS": "Branch name already exists.",
-    "CANNOT_DELETE_ASSIGNED_BRANCH": "Cannot delete branch because it is assigned to users."
+    "CANNOT_DELETE_ASSIGNED_BRANCH": "Cannot delete branch because it is assigned to users.",
+    "BRANCH_SETTING_NOT_FOUND": "Branch setting not found"
   },
   "commandInFunction": {
     "FUNCTION_NOT_FOUND": "Function does not exist.",
