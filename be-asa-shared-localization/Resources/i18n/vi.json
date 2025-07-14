@@ -168,5 +168,12 @@
     "PLACEHOLDER_REQUIRED": "Danh sách placeholder không được để trống.",
     "PLACEHOLDER_NOT_INCLUDED": "Các placeholder sau xuất hiện trong nội dung nhưng chưa được chọn: {0}.",
     "CANNOT_DELETE_DEFAULT_TEMPLATE": "Không thể xoá template mặc định."
+  },
+  "customer": {
+    "BRANCH_SETTING_VALUE_REQUIRED": "Giá trị không được để trống.",
+    "BRANCH_SETTING_INVALID_BOOL": "Giá trị boolean chỉ được phép là '0' (false) hoặc '1' (true).",
+    "BRANCH_SETTING_INVALID_INT": "Giá trị '{0}' không hợp lệ cho kiểu số nguyên.",
+    "BRANCH_SETTING_INVALID_DATETIME": "Giá trị '{0}' không hợp lệ cho kiểu ngày giờ.",
+    "BRANCH_SETTING_INVALID_ALLOWED": "Giá trị '{0}' không nằm trong danh sách cho phép: [{1}]."
   }
 }

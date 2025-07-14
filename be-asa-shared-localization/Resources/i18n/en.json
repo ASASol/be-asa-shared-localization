@@ -168,5 +168,12 @@
     "PLACEHOLDER_REQUIRED": "Placeholder list must not be empty.",
     "PLACEHOLDER_NOT_INCLUDED": "The following placeholders appear in the template but were not selected: {0}.",
     "CANNOT_DELETE_DEFAULT_TEMPLATE": "Cannot delete default template."
+  },
+  "customer": {
+    "BRANCH_SETTING_VALUE_REQUIRED": "The value must not be empty.",
+    "BRANCH_SETTING_INVALID_BOOL": "Boolean value must be either '0' (false) or '1' (true).",
+    "BRANCH_SETTING_INVALID_INT": "The value '{0}' is not valid for type int.",
+    "BRANCH_SETTING_INVALID_DATETIME": "The value '{0}' is not a valid datetime.",
+    "BRANCH_SETTING_INVALID_ALLOWED": "The value '{0}' is not in the allowed list: [{1}]."
   }
 }
