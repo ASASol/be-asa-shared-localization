@@ -175,5 +175,10 @@
     "BRANCH_SETTING_INVALID_INT": "The value '{0}' is not valid for type int.",
     "BRANCH_SETTING_INVALID_DATETIME": "The value '{0}' is not a valid datetime.",
     "BRANCH_SETTING_INVALID_ALLOWED": "The value '{0}' is not in the allowed list: [{1}]."
+  },
+  "system-settings": {
+    "NOT_FOUND": "System setting not found.",
+    "ALREADY_EXISTS": "System setting already exists.",
+    "NO_PERMISSION": "You do not have permission to access this system setting."
   }
 }

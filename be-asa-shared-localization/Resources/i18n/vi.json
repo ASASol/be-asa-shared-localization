@@ -175,5 +175,10 @@
     "BRANCH_SETTING_INVALID_INT": "Giá trị '{0}' không hợp lệ cho kiểu số nguyên.",
     "BRANCH_SETTING_INVALID_DATETIME": "Giá trị '{0}' không hợp lệ cho kiểu ngày giờ.",
     "BRANCH_SETTING_INVALID_ALLOWED": "Giá trị '{0}' không nằm trong danh sách cho phép: [{1}]."
+  },
+  "system-settings": {
+    "NOT_FOUND": "Không tìm thấy thiết lập hệ thống.",
+    "ALREADY_EXISTS": "Thiết lập hệ thống đã tồn tại.",
+    "NO_PERMISSION": "Bạn không có quyền truy cập thiết lập hệ thống này."
   }
 }
