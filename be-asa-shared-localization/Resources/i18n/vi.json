@@ -172,11 +172,13 @@
     "EMAIL_NO_RECIPIENTS": "Email phải có ít nhất một người nhận (To, Cc hoặc Bcc)."
   },
   "customer": {
-    "BRANCH_SETTING_VALUE_REQUIRED": "Giá trị không được để trống.",
-    "BRANCH_SETTING_INVALID_BOOL": "Giá trị boolean chỉ được phép là '0' (false) hoặc '1' (true).",
-    "BRANCH_SETTING_INVALID_INT": "Giá trị '{0}' không hợp lệ cho kiểu số nguyên.",
-    "BRANCH_SETTING_INVALID_DATETIME": "Giá trị '{0}' không hợp lệ cho kiểu ngày giờ.",
-    "BRANCH_SETTING_INVALID_ALLOWED": "Giá trị '{0}' không nằm trong danh sách cho phép: [{1}]."
+    "BRANCH_SETTING_VALUE_REQUIRED": "Giá trị là bắt buộc.",
+    "BRANCH_SETTING_INVALID_BOOL": "Giá trị không hợp lệ cho kiểu boolean. Chỉ chấp nhận 0 hoặc 1.",
+    "BRANCH_SETTING_INVALID_INT": "Giá trị không hợp lệ cho kiểu số nguyên: {0}.",
+    "BRANCH_SETTING_INVALID_LONG": "Giá trị không hợp lệ cho kiểu số nguyên dài: {0}.",
+    "BRANCH_SETTING_INVALID_DECIMAL": "Giá trị không hợp lệ cho kiểu số thập phân: {0}.",
+    "BRANCH_SETTING_INVALID_DATETIME": "Giá trị không hợp lệ cho kiểu ngày giờ: {0}.",
+    "BRANCH_SETTING_INVALID_ALLOWED": "Giá trị '{0}' không nằm trong danh sách cho phép: {1}."
   },
   "system-settings": {
     "NOT_FOUND": "Không tìm thấy thiết lập hệ thống.",

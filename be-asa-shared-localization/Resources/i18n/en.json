@@ -172,11 +172,13 @@
     "EMAIL_NO_RECIPIENTS": "Email must have at least one recipient (To, Cc, or Bcc)."
   },
   "customer": {
-    "BRANCH_SETTING_VALUE_REQUIRED": "The value must not be empty.",
-    "BRANCH_SETTING_INVALID_BOOL": "Boolean value must be either '0' (false) or '1' (true).",
-    "BRANCH_SETTING_INVALID_INT": "The value '{0}' is not valid for type int.",
-    "BRANCH_SETTING_INVALID_DATETIME": "The value '{0}' is not a valid datetime.",
-    "BRANCH_SETTING_INVALID_ALLOWED": "The value '{0}' is not in the allowed list: [{1}]."
+    "BRANCH_SETTING_VALUE_REQUIRED": "Value is required.",
+    "BRANCH_SETTING_INVALID_BOOL": "Invalid boolean value. Only 0 or 1 is allowed.",
+    "BRANCH_SETTING_INVALID_INT": "Invalid integer value: {0}.",
+    "BRANCH_SETTING_INVALID_LONG": "Invalid long value: {0}.",
+    "BRANCH_SETTING_INVALID_DECIMAL": "Invalid decimal value: {0}.",
+    "BRANCH_SETTING_INVALID_DATETIME": "Invalid datetime value: {0}.",
+    "BRANCH_SETTING_INVALID_ALLOWED": "Value '{0}' is not allowed. Allowed values: {1}."
   },
   "system-settings": {
     "NOT_FOUND": "System setting not found.",
