@@ -122,7 +122,7 @@
     "PASSWORD_CONFIRM_MISMATCH": "Password và ConfirmPassword không trùng khớp.",
     "EMAIL_EXISTS": "Email đã tồn tại trong hệ thống.",
     "BRANCHES_NOT_FOUND": "Các chi nhánh không tồn tại.",
-    "CREATE_USER_FAILED": "Tạo người dùng thất bại.",
+    "CREATE_USER_FAILED": "Tạo người dùng thất bại.{0}",
     "ASSIGN_ROLE_FAILED": "Gán vai trò thất bại.",
     "NEW_PASSWORD_CONFIRM_MISMATCH": "Mật khẩu mới và xác nhận mật khẩu không giống nhau.",
     "CANNOT_DELETE_OLD_PASSWORD": "Không thể xoá mật khẩu cũ.",
