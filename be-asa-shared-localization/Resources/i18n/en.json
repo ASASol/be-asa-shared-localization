@@ -184,7 +184,8 @@
     "EMAIL_TEMPLATE_NOT_FOUND": "Email confirmation template not found.",
     "EMAIL_CONFIG_NOT_FOUND": "Default email configuration not found.",
     "INVALID_CONFIRM_TOKEN": "Invalid or expired confirmation token.",
-    "USER_NOT_FOUND": "User with this email could not be found."
+    "USER_NOT_FOUND": "User with this email could not be found.",
+    "USER_ALREADY_ACTIVATED": "The user has already been activated."
   },
   "system-settings": {
     "NOT_FOUND": "System setting not found.",

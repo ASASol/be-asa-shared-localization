@@ -184,7 +184,8 @@
     "EMAIL_TEMPLATE_NOT_FOUND": "Không tìm thấy mẫu email xác nhận.",
     "EMAIL_CONFIG_NOT_FOUND": "Không tìm thấy cấu hình email mặc định.",
     "INVALID_CONFIRM_TOKEN": "Token xác nhận không hợp lệ hoặc đã hết hạn.",
-    "USER_NOT_FOUND": "Không tìm thấy người dùng với email này."
+    "USER_NOT_FOUND": "Không tìm thấy người dùng với email này.",
+    "USER_ALREADY_ACTIVATED": "Người dùng đã được kích hoạt trước đó."
   },
   "system-settings": {
     "NOT_FOUND": "Không tìm thấy thiết lập hệ thống.",
