@@ -178,7 +178,13 @@
     "BRANCH_SETTING_INVALID_LONG": "Invalid long value: {0}.",
     "BRANCH_SETTING_INVALID_DECIMAL": "Invalid decimal value: {0}.",
     "BRANCH_SETTING_INVALID_DATETIME": "Invalid datetime value: {0}.",
-    "BRANCH_SETTING_INVALID_ALLOWED": "Value '{0}' is not allowed. Allowed values: {1}."
+    "BRANCH_SETTING_INVALID_ALLOWED": "Value '{0}' is not allowed. Allowed values: {1}.",
+    "EMAIL_CONFIRM_SUCCESS": "Email confirmed successfully.",
+    "EMAIL_CONFIRM_FAILED": "Email confirmation failed.",
+    "EMAIL_TEMPLATE_NOT_FOUND": "Email confirmation template not found.",
+    "EMAIL_CONFIG_NOT_FOUND": "Default email configuration not found.",
+    "INVALID_CONFIRM_TOKEN": "Invalid or expired confirmation token.",
+    "USER_NOT_FOUND": "User with this email could not be found."
   },
   "system-settings": {
     "NOT_FOUND": "System setting not found.",

@@ -178,7 +178,13 @@
     "BRANCH_SETTING_INVALID_LONG": "Giá trị không hợp lệ cho kiểu số nguyên dài: {0}.",
     "BRANCH_SETTING_INVALID_DECIMAL": "Giá trị không hợp lệ cho kiểu số thập phân: {0}.",
     "BRANCH_SETTING_INVALID_DATETIME": "Giá trị không hợp lệ cho kiểu ngày giờ: {0}.",
-    "BRANCH_SETTING_INVALID_ALLOWED": "Giá trị '{0}' không nằm trong danh sách cho phép: {1}."
+    "BRANCH_SETTING_INVALID_ALLOWED": "Giá trị '{0}' không nằm trong danh sách cho phép: {1}.",
+    "EMAIL_CONFIRM_SUCCESS": "Xác nhận email thành công.",
+    "EMAIL_CONFIRM_FAILED": "Xác nhận email thất bại.",
+    "EMAIL_TEMPLATE_NOT_FOUND": "Không tìm thấy mẫu email xác nhận.",
+    "EMAIL_CONFIG_NOT_FOUND": "Không tìm thấy cấu hình email mặc định.",
+    "INVALID_CONFIRM_TOKEN": "Token xác nhận không hợp lệ hoặc đã hết hạn.",
+    "USER_NOT_FOUND": "Không tìm thấy người dùng với email này."
   },
   "system-settings": {
     "NOT_FOUND": "Không tìm thấy thiết lập hệ thống.",
