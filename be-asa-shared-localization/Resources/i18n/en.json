@@ -73,7 +73,8 @@
     "FUNCTION_IN_USE": "Cannot delete function because it is currently in use.",
     "UNAUTHORIZED_DELETE_SUPERADMIN": "You are not authorized to delete a system function.",
     "UNAUTHORIZED_DELETE_ADMIN": "You are not authorized to delete an admin function.",
-    "INVALID_CREATE_USER_FUNCTION_IN_ADMIN_SUBSYSTEM": "Cannot create a regular function in an admin or system subsystem."
+    "INVALID_CREATE_USER_FUNCTION_IN_ADMIN_SUBSYSTEM": "Cannot create a regular function in an admin or system subsystem.",
+    "INVALID_PARENT_LOOP": "A parent function cannot be a descendant of its child."
   },
   "permissionGroup": {
     "TYPE_NOT_FOUND": "Permission group type does not exist.",
