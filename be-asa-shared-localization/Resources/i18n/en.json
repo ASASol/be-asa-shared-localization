@@ -209,6 +209,7 @@
     "EMAIL_PASSWORD_MISSING": "SMTP password is required.",
     "EMAIL_FROM_USERNAME_MUST_MATCH": "Sender email must match SMTP username.",
     "SMS_PROVIDER_MISSING": "SMS provider is required.",
-    "SMS_API_KEY_MISSING": "SMS API key is required."
+    "SMS_API_KEY_MISSING": "SMS API key is required.",
+    "UNSUPPORTED_CHANNEL": "Unsupported notification channel."
   }
 }

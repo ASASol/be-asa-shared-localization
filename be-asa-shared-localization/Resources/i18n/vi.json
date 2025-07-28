@@ -208,6 +208,7 @@
     "EMAIL_PASSWORD_MISSING": "Thiếu mật khẩu SMTP.",
     "EMAIL_FROM_USERNAME_MUST_MATCH": "Email gửi đi phải trùng với tài khoản SMTP.",
     "SMS_PROVIDER_MISSING": "Thiếu nhà cung cấp SMS.",
-    "SMS_API_KEY_MISSING": "Thiếu API key SMS."
+    "SMS_API_KEY_MISSING": "Thiếu API key SMS.",
+    "UNSUPPORTED_CHANNEL": "Kênh thông báo không được hỗ trợ."
   }
 }
