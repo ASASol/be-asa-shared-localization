@@ -191,5 +191,14 @@
     "NOT_FOUND": "Không tìm thấy thiết lập hệ thống.",
     "ALREADY_EXISTS": "Thiết lập hệ thống đã tồn tại.",
     "NO_PERMISSION": "Bạn không có quyền truy cập thiết lập hệ thống này."
+  },
+  "notification": {
+    "CONFIG_NOT_FOUND": "Cấu hình thông báo không tồn tại.",
+    "CONFIG_ALREADY_EXISTS": "Cấu hình đã tồn tại.",
+    "CONFIG_IS_DEFAULT_CANNOT_DELETE": "Không thể xóa cấu hình mặc định.",
+    "CONFIG_IS_DEFAULT_MUST_CHANGE": "Cấu hình này đang là mặc định. Vui lòng chọn một cấu hình mặc định khác trong cùng kênh trước khi cập nhật.",
+    "CONFIG_NAME_DUPLICATE": "Tên cấu hình đã bị trùng.",
+    "ONLY_EMAIL_CAN_SEND_TEST": "Chỉ có thể gửi email test với cấu hình channel là Email.",
+    "ONLY_SMS_CAN_SEND_TEST": "Chỉ có thể gửi SMS test với cấu hình channel là SMS."
   }
 }

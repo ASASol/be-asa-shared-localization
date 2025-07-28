@@ -191,5 +191,15 @@
     "NOT_FOUND": "System setting not found.",
     "ALREADY_EXISTS": "System setting already exists.",
     "NO_PERMISSION": "You do not have permission to access this system setting."
+  },
+  "notification": {
+    "CONFIG_NOT_FOUND": "Notification configuration not found.",
+    "CONFIG_ALREADY_EXISTS": "Notification configuration already exists.",
+    "CONFIG_IS_DEFAULT_CANNOT_DELETE": "Cannot delete default configuration.",
+    "CONFIG_IS_DEFAULT_MUST_CHANGE": "This configuration is currently set as default. Please assign another default configuration within the same channel before updating.",
+    "CONFIG_NAME_DUPLICATE": "Configuration name is duplicated.",
+    "ONLY_EMAIL_CAN_SEND_TEST": "Only email channel configurations can be used to send test emails.",
+    "EMAIL_SEND_FAILED": "Failed to send email. Please check your configuration.",
+    "ONLY_SMS_CAN_SEND_TEST": "Only SMS channel configurations can be used to send test SMS messages."
   }
 }
