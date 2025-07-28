@@ -73,7 +73,8 @@
     "FUNCTION_IN_USE": "Không thể xóa chức năng vì đang được sử dụng.",
     "UNAUTHORIZED_DELETE_SUPERADMIN": "Bạn không có quyền xóa chức năng hệ thống.",
     "UNAUTHORIZED_DELETE_ADMIN": "Bạn không có quyền xóa chức năng admin.",
-    "INVALID_CREATE_USER_FUNCTION_IN_ADMIN_SUBSYSTEM": "Không thể tạo chức năng thường trong phân hệ quản trị."
+    "INVALID_CREATE_USER_FUNCTION_IN_ADMIN_SUBSYSTEM": "Không thể tạo chức năng thường trong phân hệ quản trị.",
+    "INVALID_PARENT_LOOP": "Chức năng cha không thể là chức năng con của chức năng khác."
   },
   "permissionGroup": {
     "TYPE_NOT_FOUND": "Không tồn tại loại nhóm quyền.",
