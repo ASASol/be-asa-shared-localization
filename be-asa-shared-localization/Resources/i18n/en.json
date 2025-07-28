@@ -211,7 +211,7 @@
     "SMS_PROVIDER_MISSING": "SMS provider is required.",
     "SMS_API_KEY_MISSING": "SMS API key is required.",
     "UNSUPPORTED_CHANNEL": "Unsupported notification channel.",
-    "REQUIRE_OTHER_DEFAULT_BEFORE_UPDATE": "This configuration is set as default. Please choose another default configuration in the same channel before updating."
-
+    "REQUIRE_OTHER_DEFAULT_BEFORE_UPDATE": "This configuration is set as default. Please choose another default configuration in the same channel before updating.",
+    "UNSUPPORTED_LANGUAGE": "Unsupported language."
   }
 }
