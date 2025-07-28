@@ -200,6 +200,14 @@
     "CONFIG_IS_DEFAULT_MUST_CHANGE": "Cấu hình này đang là mặc định. Vui lòng chọn một cấu hình mặc định khác trong cùng kênh trước khi cập nhật.",
     "CONFIG_NAME_DUPLICATE": "Tên cấu hình đã bị trùng.",
     "ONLY_EMAIL_CAN_SEND_TEST": "Chỉ có thể gửi email test với cấu hình channel là Email.",
-    "ONLY_SMS_CAN_SEND_TEST": "Chỉ có thể gửi SMS test với cấu hình channel là SMS."
+    "ONLY_SMS_CAN_SEND_TEST": "Chỉ có thể gửi SMS test với cấu hình channel là SMS.",
+    "EMAIL_SMTP_MISSING": "Thiếu SMTP server.",
+    "EMAIL_PORT_MISSING": "Thiếu port.",
+    "EMAIL_FROM_MISSING": "Thiếu email gửi đi.",
+    "EMAIL_USERNAME_MISSING": "Thiếu tài khoản SMTP.",
+    "EMAIL_PASSWORD_MISSING": "Thiếu mật khẩu SMTP.",
+    "EMAIL_FROM_USERNAME_MUST_MATCH": "Email gửi đi phải trùng với tài khoản SMTP.",
+    "SMS_PROVIDER_MISSING": "Thiếu nhà cung cấp SMS.",
+    "SMS_API_KEY_MISSING": "Thiếu API key SMS."
   }
 }

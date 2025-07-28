@@ -1,0 +1,21 @@
+﻿namespace be_asa_shared_localization.Enums.Email
+{
+    public enum NotificationKeys
+    {
+        CONFIG_NOT_FOUND,
+        CONFIG_ALREADY_EXISTS,
+        CONFIG_IS_DEFAULT_CANNOT_DELETE,
+        CONFIG_IS_DEFAULT_MUST_CHANGE,
+        CONFIG_NAME_DUPLICATE,
+        ONLY_EMAIL_CAN_SEND_TEST,
+        ONLY_SMS_CAN_SEND_TEST,
+        EMAIL_SMTP_MISSING,
+        EMAIL_PORT_MISSING,
+        EMAIL_FROM_MISSING,
+        EMAIL_USERNAME_MISSING,
+        EMAIL_PASSWORD_MISSING,
+        EMAIL_FROM_USERNAME_MUST_MATCH,
+        SMS_PROVIDER_MISSING,
+        SMS_API_KEY_MISSING,
+    }
+}
