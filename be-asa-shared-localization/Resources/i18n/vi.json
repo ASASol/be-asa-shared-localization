@@ -28,7 +28,9 @@
     "BRANCH_CLAIM_REQUIRED": "Vui lòng chọn chi nhánh.",
     "BRANCH_CLAIM_INVALID": "Claim chi nhánh không hợp lệ.",
     "MODULE_NOT_FOUND": "Không tìm thấy module.",
-    "MODULE_ACCESS_DENIED": "Bạn không có quyền truy cập module này."
+    "MODULE_ACCESS_DENIED": "Bạn không có quyền truy cập module này.",
+    "MODULE_CLAIM_INVALID": "Không hợp lệ: Module trong claim không đúng hoặc thiếu.",
+    "MODULE_INVALID": "Module không hợp lệ hoặc không tồn tại."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Tải dữ liệu thành công.",

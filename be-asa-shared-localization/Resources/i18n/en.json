@@ -28,7 +28,9 @@
     "BRANCH_CLAIM_REQUIRED": "Please select a branch.",
     "BRANCH_CLAIM_INVALID": "Invalid branch claim.",
     "MODULE_NOT_FOUND": "Module not found.",
-    "MODULE_ACCESS_DENIED": "You do not have access to this module."
+    "MODULE_ACCESS_DENIED": "You do not have access to this module.",
+    "MODULE_CLAIM_INVALID": "Invalid: Module in claim is incorrect or missing.",
+    "MODULE_INVALID": "Invalid or non-existent module."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Data loaded successfully.",
