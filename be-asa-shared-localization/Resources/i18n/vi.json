@@ -242,7 +242,8 @@
     "UPDATE_PRODUCT_ERROR": "Lỗi khi cập nhật sản phẩm.",
     "DELETE_PRODUCT_ERROR": "Lỗi khi xóa sản phẩm.",
     "GET_HIGHLIGHTED_PRODUCTS_ERROR": "Lỗi khi lấy sản phẩm nổi bật.",
-    "GET_MAIN_PRODUCT_ERROR": "Lỗi khi lấy sản phẩm chính."
+    "GET_MAIN_PRODUCT_ERROR": "Lỗi khi lấy sản phẩm chính.",
+    "TEMPLATE_NOT_FOUND": "Không tìm thấy Template sản phẩm."
   },
   "header": {
     "HEADER_NOT_FOUND": "Không tìm thấy Header.",
