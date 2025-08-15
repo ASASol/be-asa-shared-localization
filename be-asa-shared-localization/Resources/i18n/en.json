@@ -215,5 +215,201 @@
     "UNSUPPORTED_CHANNEL": "Unsupported notification channel.",
     "REQUIRE_OTHER_DEFAULT_BEFORE_UPDATE": "This configuration is set as default. Please choose another default configuration in the same channel before updating.",
     "UNSUPPORTED_LANGUAGE": "Unsupported language."
+  },
+  "product": {
+    "NOT_FOUND": "Product does not exist.",
+    "MAIN_NOT_FOUND": "Main product does not exist."
+  },
+  "header": {
+    "HEADER_NOT_FOUND": "Header not found.",
+    "INVALID_HEADER_ID": "Invalid Header ID.",
+    "INVALID_PARENT_ID": "Invalid Parent Header ID.",
+    "INVALID_PAGE_INDEX": "Invalid page index. Page index must be greater than 0.",
+    "INVALID_PAGE_SIZE": "Invalid page size. Page size must be greater than 0.",
+    "INVALID_HEADER_LIST": "Invalid Header list.",
+    "INVALID_CREATE_REQUEST": "Invalid create Header request.",
+    "INVALID_UPDATE_REQUEST": "Invalid update Header request.",
+    "HEADER_NAME_REQUIRED": "Header name is required.",
+    "HEADER_CODE_REQUIRED": "Header code is required.",
+    "HEADER_CODE_EXISTS": "Header code already exists in the system.",
+    "PARENT_HEADER_NOT_FOUND": "Parent Header not found.",
+    "HEADERS_NOT_FOUND": "Headers list not found.",
+    "CANNOT_SET_SELF_AS_PARENT": "Cannot set itself as parent Header.",
+    "CIRCULAR_REFERENCE_ERROR": "Circular reference detected in Header structure.",
+    "CANNOT_DELETE_HEADER_WITH_CHILDREN": "Cannot delete Header that has child Headers.",
+    "USER_NOT_AUTHENTICATED": "User is not authenticated.",
+    "GET_MENU_TREE_ERROR": "Error occurred while getting Header menu tree.",
+    "GET_PAGINATED_HEADERS_ERROR": "Error occurred while getting paginated Headers.",
+    "GET_ALL_HEADERS_ERROR": "Error occurred while getting all Headers.",
+    "GET_CHILD_HEADERS_ERROR": "Error occurred while getting child Headers.",
+    "GET_HEADER_BY_ID_ERROR": "Error occurred while getting Header by ID.",
+    "CREATE_HEADER_ERROR": "Error occurred while creating Header.",
+    "UPDATE_HEADER_ERROR": "Error occurred while updating Header.",
+    "DELETE_HEADER_ERROR": "Error occurred while deleting Header.",
+    "BUILD_TREE_ERROR": "Error occurred while building Header tree.",
+    "PAGINATION_ERROR": "Error occurred during pagination."
+  },
+  "footer": {
+    "NOT_FOUND": "Footer not found.",
+    "COMPANY_NOT_FOUND": "Company information not found.",
+    "INTERNAL_ERROR": "An internal system error occurred. Please try again later.",
+    "BUILD_TREE_ERROR": "Error occurred while building Footer tree. Please try again.",
+    "INVALID_PAGE_INDEX": "Invalid page index. Must be greater than 0.",
+    "INVALID_PAGE_SIZE": "Invalid page size. Must be greater than 0.",
+    "INVALID_PARENT_ID": "Invalid parent Footer ID.",
+    "INVALID_FOOTER_ID": "Invalid Footer ID.",
+    "INVALID_REQUEST": "Invalid request data.",
+    "NAME_REQUIRED": "Footer name is required.",
+    "FOOTER_CODE_REQUIRED": "Footer code is required.",
+    "FOOTER_CODE_EXISTS": "Footer code already exists in the system.",
+    "UNAUTHORIZED": "You are not authorized to perform this action.",
+    "CREATE_ERROR": "An error occurred while creating Footer. Please try again.",
+    "UPDATE_ERROR": "An error occurred while updating Footer. Please try again.",
+    "DELETE_ERROR": "An error occurred while deleting Footer. Please try again.",
+    "HAS_CHILDREN_CANNOT_DELETE": "Cannot delete this Footer because it has child Footers."
+  },
+  "contact": {
+    "NOT_FOUND": "Contact not found.",
+    "INVALID_ID": "Invalid contact ID.",
+    "INVALID_REQUEST_DATA": "Invalid request data.",
+    "NAME_REQUIRED": "Contact name is required.",
+    "EMAIL_REQUIRED": "Contact email is required.",
+    "EMAIL_ALREADY_EXISTS": "Email already exists.",
+    "USER_NOT_AUTHENTICATED": "User is not authenticated.",
+    "INVALID_PAGE_INDEX": "Page index must be greater than 0.",
+    "INVALID_PAGE_SIZE": "Page size must be greater than 0.",
+    "INVALID_SEARCH_PARAMETERS": "Invalid search parameters.",
+    "INVALID_SEARCH_TERM": "Invalid search term.",
+    "DATABASE_CONNECTION_ERROR": "Database connection error.",
+    "DATABASE_SAVE_ERROR": "Error saving data to database.",
+    "MAPPING_ERROR": "Data mapping error.",
+    "UNEXPECTED_ERROR": "An unexpected error occurred."
+  },
+  "consultationRequest": {
+    "NOT_FOUND": "Consultation request not found.",
+    "CANNOT_CHANGE_STATUS_FROM_CANCELLED_OR_REJECTED": "Cannot change status when it is already cancelled or rejected.",
+    "INVALID_STATUS_TRANSITION": "Invalid status transition.",
+    "INVALID_INPUT": "Invalid input provided.",
+    "REQUIRED_FIELDS_MISSING": "Required fields are missing."
+  },
+  "recruitmentPost": {
+    "NOT_FOUND": "Recruitment post not found.",
+    "POSITION_NOT_FOUND": "Recruitment position not found.",
+    "INVALID_REQUEST": "Invalid request data.",
+    "INVALID_ID": "Invalid ID provided.",
+    "INVALID_PAGE_INDEX": "Page index must be greater than 0.",
+    "INVALID_PAGE_SIZE": "Page size must be greater than 0."
+  },
+  "recruitmentPosition": {
+    "NOT_FOUND": "Recruitment position does not exist.",
+    "LEVEL_NOT_FOUND": "Level is invalid or does not exist.",
+    "NAME_REQUIRED": "Recruitment position name is required.",
+    "REQUEST_NULL": "Request data cannot be null or empty.",
+    "PAGE_INDEX_INVALID": "Page index must be greater than 0.",
+    "PAGE_SIZE_INVALID": "Page size must be greater than 0.",
+    "USER_NOT_AUTHENTICATED": "User is not authenticated.",
+    "ID_INVALID": "Invalid ID."
+  },
+  "recruitmentApplication": {
+    "NOT_FOUND": "Recruitment application does not exist.",
+    "RECRUITMENT_POST_NOT_FOUND": "Recruitment post does not exist.",
+    "RECRUITMENT_POST_EXPIRED": "The recruitment post has expired and cannot be applied for.",
+
+    "CANNOT_UPDATE_STATUS_REJECTED": "The candidate has been rejected and cannot be updated.",
+    "CANNOT_CHANGE_REVIEWED_TO_PENDING": "Cannot change from Reviewed to Pending.",
+    "CANNOT_CHANGE_INTERVIEW_TO_REVIEWED_OR_PENDING": "Cannot change from Interview Scheduled to Reviewed or Pending.",
+    "CANNOT_CHANGE_ACCEPTED_TO_PREVIOUS": "Cannot change from Accepted to any previous status.",
+    "INVALID_DATE_FUTURE_REQUIRED": "Please choose a future date.",
+    "INTERVIEW_DATE_REQUIRED": "Please enter the expected interview date.",
+    "ACCEPTED_DATE_REQUIRED": "Please enter the expected start date."
+  },
+  "tag": {
+    "NOT_FOUND": "Tag not found.",
+    "INVALID_ID": "Invalid tag ID.",
+    "INVALID_REQUEST_DATA": "Invalid request data.",
+    "INVALID_PAGINATION_PARAMETERS": "Invalid pagination parameters.",
+    "USER_NOT_AUTHENTICATED": "User is not authenticated.",
+    "DATABASE_CONNECTION_ERROR": "Database connection error occurred.",
+    "MAPPING_ERROR": "Data mapping error occurred.",
+    "CREATE_FAILED": "Failed to create tag.",
+    "UPDATE_FAILED": "Failed to update tag.",
+    "DELETE_FAILED": "Failed to delete tag.",
+    "CONCURRENCY_ERROR": "Concurrency conflict occurred.",
+    "INTERNAL_SERVER_ERROR": "Internal server error occurred."
+  },
+  "blog": {
+    "NOT_FOUND": "Blog not found.",
+    "INVALID_REQUEST": "Invalid request data.",
+    "INVALID_FILE": "Invalid file or unsupported file format.",
+    "UNAUTHORIZED_ACCESS": "You don't have permission to access.",
+    "CATEGORY_NOT_FOUND": "Blog category not found.",
+    "TAG_NOT_FOUND": "Blog tag not found.",
+    "DATABASE_ERROR": "Database error occurred.",
+    "FILE_UPLOAD_ERROR": "File upload error.",
+    "INVALID_PAGE_PARAMS": "Invalid pagination parameters.",
+    "TRANSACTION_ERROR": "Transaction processing error."
+  },
+  "blogCategory": {
+    "NOT_FOUND": "Blog category does not exist.",
+    "INVALID_ID": "Invalid blog category ID.",
+    "INVALID_REQUEST_DATA": "Invalid request data.",
+    "DATABASE_ERROR": "Database error occurred while processing blog category.",
+    "UNAUTHORIZED_ACCESS": "Unauthorized access to this function.",
+    "INVALID_USER_CONTEXT": "Unable to determine user information.",
+    "CATEGORY_NAME_REQUIRED": "Category name is required.",
+    "CATEGORY_NAME_EXISTS": "Category name already exists.",
+    "INVALID_PAGINATION_PARAMS": "Invalid pagination parameters."
+  },
+
+  "partner": {
+    "NOT_FOUND": "Partner does not exist.",
+    "INVALID_REQUEST": "Invalid request data.",
+    "UNAUTHORIZED": "Unauthorized access.",
+    "FORBIDDEN": "Access denied.",
+    "INTERNAL_ERROR": "Internal server error.",
+    "FILE_UPLOAD_ERROR": "Image upload error.",
+    "DATABASE_ERROR": "Database error.",
+    "TRANSACTION_ERROR": "Transaction error.",
+    "INVALID_ID": "Invalid partner ID.",
+    "DUPLICATE_NAME": "Partner name already exists."
+  },
+  "milestone": {
+    "NOT_FOUND": "Milestone does not exist.",
+    "CREATE_FAILED": "Failed to create milestone.",
+    "UPDATE_FAILED": "Failed to update milestone.",
+    "DELETE_FAILED": "Failed to delete milestone.",
+    "INVALID_DATA": "Invalid milestone data provided.",
+    "DATABASE_ERROR": "Database operation failed.",
+    "UNAUTHORIZED_ACCESS": "You do not have permission to perform this action.",
+    "INVALID_SEARCH_TERM": "Invalid search term provided.",
+    "INVALID_PAGINATION_PARAMS": "Invalid pagination parameters."
+  },
+  "customer_feedback": {
+    "NOT_FOUND": "Customer feedback does not exist.",
+    "CREATE_FAILED": "Failed to create customer feedback.",
+    "UPDATE_FAILED": "Failed to update customer feedback.",
+    "DELETE_FAILED": "Failed to delete customer feedback.",
+    "INVALID_REQUEST": "Invalid request data.",
+    "DATABASE_ERROR": "Database error while processing customer feedback.",
+    "MAPPING_ERROR": "Data mapping error for customer feedback.",
+    "USER_NOT_AUTHORIZED": "User is not authorized to access.",
+    "INVALID_USER_CONTEXT": "Invalid user context information.",
+    "PAGINATION_ERROR": "Pagination data error."
+  },
+  "companyInfo": {
+    "NOT_FOUND": "Company information not found.",
+    "CREATE_FAILED": "Failed to create company information.",
+    "UPDATE_FAILED": "Failed to update company information.",
+    "DELETE_FAILED": "Failed to delete company information.",
+    "INVALID_DATA": "Invalid company information data.",
+    "UNAUTHORIZED_ACCESS": "Unauthorized access to company information.",
+    "FORBIDDEN_ACCESS": "Access to company information is forbidden.",
+    "INTERNAL_ERROR": "Internal server error occurred while processing company information.",
+    "INVALID_REQUEST": "Invalid request for company information."
   }
+
+
+
+
+
 }
