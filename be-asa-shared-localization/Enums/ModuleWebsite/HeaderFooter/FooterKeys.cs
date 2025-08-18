@@ -24,6 +24,8 @@ namespace be_asa_shared_localization.Enums.ModuleWebsite.HeaderFooter
         CREATE_ERROR,
         UPDATE_ERROR,
         DELETE_ERROR,
-        HAS_CHILDREN_CANNOT_DELETE
+        HAS_CHILDREN_CANNOT_DELETE,
+        URL_REQUIRED,
+        URL_EXISTS
     }
 }

@@ -47,6 +47,8 @@ namespace be_asa_shared_localization.Enums.ModuleWebsite.HeaderFooter
         UPDATE_HEADER_ERROR,
         DELETE_HEADER_ERROR,
         BUILD_TREE_ERROR,
-        PAGINATION_ERROR
+        PAGINATION_ERROR,
+        URL_REQUIRED,
+        URL_EXISTS
     }
 }
