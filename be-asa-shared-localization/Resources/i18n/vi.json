@@ -272,7 +272,9 @@
     "UPDATE_HEADER_ERROR": "Lỗi khi cập nhật Header.",
     "DELETE_HEADER_ERROR": "Lỗi khi xóa Header.",
     "BUILD_TREE_ERROR": "Lỗi khi xây dựng cây Header.",
-    "PAGINATION_ERROR": "Lỗi trong quá trình phân trang."
+    "PAGINATION_ERROR": "Lỗi trong quá trình phân trang.",
+    "URL_REQUIRED": "URL là bắt buộc.",
+    "URL_EXISTS": "URL đã tồn tại."
   },
   "footer": {
     "NOT_FOUND": "Không tìm thấy Footer.",
@@ -291,7 +293,9 @@
     "CREATE_ERROR": "Đã xảy ra lỗi khi tạo Footer. Vui lòng thử lại.",
     "UPDATE_ERROR": "Đã xảy ra lỗi khi cập nhật Footer. Vui lòng thử lại.",
     "DELETE_ERROR": "Đã xảy ra lỗi khi xóa Footer. Vui lòng thử lại.",
-    "HAS_CHILDREN_CANNOT_DELETE": "Không thể xóa Footer này vì có Footer con đang tồn tại."
+    "HAS_CHILDREN_CANNOT_DELETE": "Không thể xóa Footer này vì có Footer con đang tồn tại.",
+    "URL_REQUIRED": "URL là bắt buộc.",
+    "URL_EXISTS": "URL đã tồn tại."
   },
   "contact": {
     "NOT_FOUND": "Không tìm thấy liên hệ.",

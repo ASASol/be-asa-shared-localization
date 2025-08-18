@@ -273,7 +273,9 @@
     "UPDATE_HEADER_ERROR": "Error occurred while updating Header.",
     "DELETE_HEADER_ERROR": "Error occurred while deleting Header.",
     "BUILD_TREE_ERROR": "Error occurred while building Header tree.",
-    "PAGINATION_ERROR": "Error occurred during pagination."
+    "PAGINATION_ERROR": "Error occurred during pagination.",
+    "URL_REQUIRED": "URL is required.",
+    "URL_EXISTS": "URL already exists."
   },
   "footer": {
     "NOT_FOUND": "Footer not found.",
@@ -292,7 +294,9 @@
     "CREATE_ERROR": "An error occurred while creating Footer. Please try again.",
     "UPDATE_ERROR": "An error occurred while updating Footer. Please try again.",
     "DELETE_ERROR": "An error occurred while deleting Footer. Please try again.",
-    "HAS_CHILDREN_CANNOT_DELETE": "Cannot delete this Footer because it has child Footers."
+    "HAS_CHILDREN_CANNOT_DELETE": "Cannot delete this Footer because it has child Footers.",
+    "URL_REQUIRED": "URL is required.",
+    "URL_EXISTS": "URL already exists."
   },
   "contact": {
     "NOT_FOUND": "Contact not found.",
