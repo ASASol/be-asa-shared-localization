@@ -445,5 +445,8 @@
     "PageNotPublished": "This page has not been published yet.",
     "ParentNotFound": "Parent menu not found.",
     "ParentTypeMismatch": "Please select a parent menu with the same type."
+  },
+  "media": {
+    "TEXT_REQUIRED": "Text must not be empty."
   }
 }

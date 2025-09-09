@@ -444,5 +444,8 @@
     "PageNotPublished": "Trang này chưa được public.",
     "ParentNotFound": "Menu cha không tồn tại.",
     "ParentTypeMismatch": "Vui lòng chọn menu cha có cùng loại."
+  },
+  "media": {
+    "TEXT_REQUIRED": "Text không được để trống."
   }
 }
