@@ -448,5 +448,16 @@
   },
   "media": {
     "TEXT_REQUIRED": "Text must not be empty."
+  },
+  "page": {
+    "PAGE_NOT_FOUND": "Page not found.",
+    "TEMPLATE_NOT_FOUND": "Template not found.",
+    "SLUG_DUPLICATE": "This slug already exists.",
+    "TAG_NOT_FOUND": "Hashtag not found.",
+    "SECTION_NOT_FOUND_IN_PAGE": "Section does not exist in this page.",
+    "SECTION_INVALID_POSITION": "Section position must be >= 1.",
+    "PARENT_NOT_FOUND": "Parent page not found.",
+    "PARENT_SELF_REFERENCE": "A page cannot be its own parent.",
+    "PARENT_CHILD_LOOP": "Cannot create a parent–child loop between pages."
   }
 }
