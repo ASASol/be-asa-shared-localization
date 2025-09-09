@@ -434,8 +434,13 @@
     "FORBIDDEN_ACCESS": "Truy cập thông tin công ty bị cấm.",
     "INTERNAL_ERROR": "Lỗi hệ thống khi xử lý thông tin công ty.",
     "INVALID_REQUEST": "Yêu cầu thông tin công ty không hợp lệ."
+  },
+  "menu": {
+    "NotFound": "Menu không tồn tại.",
+    "TypeNotFound": "Không tồn tại loại menu.",
+    "PageNotFoundOrUnpublished": "Không tồn tại trang hoặc chưa được public.",
+    "PageNotPublished": "Trang này chưa được public.",
+    "ParentNotFound": "Menu cha không tồn tại.",
+    "ParentTypeMismatch": "Vui lòng chọn menu cha có cùng loại."
   }
-
-
-
 }

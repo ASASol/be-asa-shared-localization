@@ -1,0 +1,16 @@
+﻿namespace be_asa_shared_localization.Enums.ModuleAuthen.Authentication
+{
+    public enum PermissionKeys
+    {
+        USER_NOT_FOUND,
+        BRANCH_NOT_FOUND,
+        INVALID_PERMISSION_GROUPS,
+        CANNOT_ASSIGN_ADMIN_GROUP,
+        USER_CANNOT_BE_ASSIGNED_ADMIN_GROUP,
+        INVALID_FUNCTIONS,
+        CANNOT_ASSIGN_SUPERADMIN_FUNCTION,
+        CANNOT_ASSIGN_ADMIN_FUNCTION,
+        USER_CANNOT_RECEIVE_SUPERADMIN_FUNCTION,
+        USER_CANNOT_RECEIVE_ADMIN_FUNCTION
+    }
+}

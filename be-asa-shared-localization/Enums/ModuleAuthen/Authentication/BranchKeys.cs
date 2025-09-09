@@ -1,0 +1,11 @@
+﻿namespace be_asa_shared_localization.Enums.ModuleAuthen.Authentication
+{
+    public enum BranchKeys
+    {
+        BRANCH_ALREADY_EXISTS,
+        BRANCH_NOT_FOUND,
+        BRANCH_NAME_EXISTS,
+        CANNOT_DELETE_ASSIGNED_BRANCH,
+        BRANCH_SETTING_NOT_FOUND
+    }
+}

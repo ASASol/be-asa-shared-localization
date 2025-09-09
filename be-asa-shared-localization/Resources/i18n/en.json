@@ -390,7 +390,6 @@
     "CATEGORY_NAME_EXISTS": "Category name already exists.",
     "INVALID_PAGINATION_PARAMS": "Invalid pagination parameters."
   },
-
   "partner": {
     "NOT_FOUND": "Partner does not exist.",
     "INVALID_REQUEST": "Invalid request data.",
@@ -436,10 +435,13 @@
     "FORBIDDEN_ACCESS": "Access to company information is forbidden.",
     "INTERNAL_ERROR": "Internal server error occurred while processing company information.",
     "INVALID_REQUEST": "Invalid request for company information."
+  },
+  "menu": {
+    "NotFound": "Menu not found.",
+    "TypeNotFound": "Menu type not found.",
+    "PageNotFoundOrUnpublished": "Page does not exist or is not published.",
+    "PageNotPublished": "This page has not been published yet.",
+    "ParentNotFound": "Parent menu not found.",
+    "ParentTypeMismatch": "Please select a parent menu with the same type."
   }
-
-
-
-
-
 }
