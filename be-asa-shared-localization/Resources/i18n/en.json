@@ -465,5 +465,14 @@
     "SECTION_TEMPLATE_NOT_FOUND": "Section template not found.",
     "SECTION_TEMPLATE_CODE_EXISTS": "A section template with this code already exists.",
     "SECTION_TEMPLATE_DELETED_SUCCESS": "Section template deleted successfully."
+  },
+  "section": {
+    "SECTION_NOT_FOUND": "Section not found.",
+    "SECTION_CREATE_SUCCESS": "Section created successfully.",
+    "SECTION_UPDATE_SUCCESS": "Section updated successfully.",
+    "SECTION_DELETE_SUCCESS": "Section deleted successfully.",
+    "SECTION_CREATE_FAILED": "Failed to create section.",
+    "SECTION_UPDATE_FAILED": "Failed to update section.",
+    "SECTION_DELETE_FAILED": "Failed to delete section."
   }
 }

@@ -464,5 +464,14 @@
     "SECTION_TEMPLATE_NOT_FOUND": "Không tìm thấy Section Template.",
     "SECTION_TEMPLATE_CODE_EXISTS": "SectionTemplate với mã (code) này đã tồn tại.",
     "SECTION_TEMPLATE_DELETED_SUCCESS": "Xóa Section Template thành công."
+  },
+  "section": {
+    "SECTION_NOT_FOUND": "Không tìm thấy section.",
+    "SECTION_CREATE_SUCCESS": "Tạo section thành công.",
+    "SECTION_UPDATE_SUCCESS": "Cập nhật section thành công.",
+    "SECTION_DELETE_SUCCESS": "Xóa section thành công.",
+    "SECTION_CREATE_FAILED": "Tạo section thất bại.",
+    "SECTION_UPDATE_FAILED": "Cập nhật section thất bại.",
+    "SECTION_DELETE_FAILED": "Xóa section thất bại."
   }
 }
