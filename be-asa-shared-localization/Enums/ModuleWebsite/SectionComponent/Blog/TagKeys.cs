@@ -15,6 +15,7 @@
         CONCURRENCY_ERROR,
         INTERNAL_SERVER_ERROR,
         INVALID_FORMAT,
-        DUPLICATE
+        DUPLICATE,
+        TAG_IN_USE_CANNOT_DELETE
     }
 }

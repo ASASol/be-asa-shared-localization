@@ -367,7 +367,8 @@
     "CONCURRENCY_ERROR": "Concurrency conflict occurred.",
     "INTERNAL_SERVER_ERROR": "Internal server error occurred.",
     "InvalidFormat": "Invalid tag. It must start with #, followed by only letters, numbers, or underscores.",
-    "Duplicate": "This tag already exists in the system."
+    "Duplicate": "This tag already exists in the system.",
+    "TAG_IN_USE_CANNOT_DELETE": "This tag is currently used in a blog and cannot be deleted."
   },
   "blog": {
     "NOT_FOUND": "Blog not found.",
