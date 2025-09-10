@@ -202,6 +202,7 @@
     "CONFIG_IS_DEFAULT_MUST_CHANGE": "Cấu hình này đang là mặc định. Vui lòng chọn một cấu hình mặc định khác trong cùng kênh trước khi cập nhật.",
     "CONFIG_NAME_DUPLICATE": "Tên cấu hình đã bị trùng.",
     "ONLY_EMAIL_CAN_SEND_TEST": "Chỉ có thể gửi email test với cấu hình channel là Email.",
+    "EMAIL_SEND_FAILED": "Gửi email thất bại. Vui lòng kiểm tra lại cấu hình.",
     "ONLY_SMS_CAN_SEND_TEST": "Chỉ có thể gửi SMS test với cấu hình channel là SMS.",
     "EMAIL_SMTP_MISSING": "Thiếu SMTP server.",
     "EMAIL_PORT_MISSING": "Thiếu port.",
@@ -473,5 +474,10 @@
     "SECTION_CREATE_FAILED": "Tạo section thất bại.",
     "SECTION_UPDATE_FAILED": "Cập nhật section thất bại.",
     "SECTION_DELETE_FAILED": "Xóa section thất bại."
+  },
+  "pageTemplate": {
+    "PAGE_TEMPLATE_NOT_FOUND": "Không tìm thấy PageTemplate.",
+    "PAGE_TEMPLATE_CODE_EXIST": "Code PageTemplate đã tồn tại.",
+    "PAGE_TEMPLATE_TYPE_NOT_FOUND": "Không tìm thấy PageTemplateType."
   }
 }
