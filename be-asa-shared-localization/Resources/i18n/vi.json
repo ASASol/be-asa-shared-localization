@@ -458,7 +458,8 @@
     "SECTION_INVALID_POSITION": "Vị trí của Section phải >= 1.",
     "PARENT_NOT_FOUND": "Trang cha không tồn tại.",
     "PARENT_SELF_REFERENCE": "Trang không thể là cha của chính nó.",
-    "PARENT_CHILD_LOOP": "Không thể tạo vòng lặp cha – con giữa các trang."
+    "PARENT_CHILD_LOOP": "Không thể tạo vòng lặp cha – con giữa các trang.",
+    "PAGE_IN_USE_CANNOT_DELETE": "Trang này đang được sử dụng trong menu, không thể xoá."
   },
   "sectionTemplate": {
     "SECTION_TEMPLATE_TYPE_NOT_FOUND": "Không tìm thấy loại Section Template.",
