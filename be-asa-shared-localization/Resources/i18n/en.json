@@ -459,5 +459,11 @@
     "PARENT_NOT_FOUND": "Parent page not found.",
     "PARENT_SELF_REFERENCE": "A page cannot be its own parent.",
     "PARENT_CHILD_LOOP": "Cannot create a parent–child loop between pages."
+  },
+  "sectionTemplate": {
+    "SECTION_TEMPLATE_TYPE_NOT_FOUND": "Section template type not found.",
+    "SECTION_TEMPLATE_NOT_FOUND": "Section template not found.",
+    "SECTION_TEMPLATE_CODE_EXISTS": "A section template with this code already exists.",
+    "SECTION_TEMPLATE_DELETED_SUCCESS": "Section template deleted successfully."
   }
 }
