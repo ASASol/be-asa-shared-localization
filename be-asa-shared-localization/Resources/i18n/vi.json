@@ -445,7 +445,8 @@
     "PageNotFoundOrUnpublished": "Không tồn tại trang hoặc chưa được public.",
     "PageNotPublished": "Trang này chưa được public.",
     "ParentNotFound": "Menu cha không tồn tại.",
-    "ParentTypeMismatch": "Vui lòng chọn menu cha có cùng loại."
+    "ParentTypeMismatch": "Vui lòng chọn menu cha có cùng loại.",
+    "ParentCircularReference": "Không thể gán menu cha, vì sẽ tạo vòng lặp trong cây menu."
   },
   "media": {
     "TEXT_REQUIRED": "Text không được để trống."

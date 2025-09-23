@@ -445,7 +445,8 @@
     "PageNotFoundOrUnpublished": "Page does not exist or is not published.",
     "PageNotPublished": "This page has not been published yet.",
     "ParentNotFound": "Parent menu not found.",
-    "ParentTypeMismatch": "Please select a parent menu with the same type."
+    "ParentTypeMismatch": "Please select a parent menu with the same type.",
+    "ParentCircularReference": "Cannot assign parent menu because it would create a circular reference."
   },
   "media": {
     "TEXT_REQUIRED": "Text must not be empty."

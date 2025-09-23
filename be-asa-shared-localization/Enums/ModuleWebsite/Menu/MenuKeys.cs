@@ -7,6 +7,7 @@
         PageNotFoundOrUnpublished,
         PageNotPublished,
         ParentNotFound,
-        ParentTypeMismatch
+        ParentTypeMismatch,
+        ParentCircularReference
     }
 }
