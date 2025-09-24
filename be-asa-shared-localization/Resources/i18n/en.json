@@ -366,7 +366,7 @@
     "DELETE_FAILED": "Failed to delete tag.",
     "CONCURRENCY_ERROR": "Concurrency conflict occurred.",
     "INTERNAL_SERVER_ERROR": "Internal server error occurred.",
-    "InvalidFormat": "Invalid tag. It must start with #, followed by only letters, numbers, or underscores.",
+    "INVALID_FORMAT": "Invalid tag. It must start with #, followed by only letters, numbers, or underscores.",
     "Duplicate": "This tag already exists in the system.",
     "TAG_IN_USE_CANNOT_DELETE": "This tag is currently used and cannot be deleted."
   },
