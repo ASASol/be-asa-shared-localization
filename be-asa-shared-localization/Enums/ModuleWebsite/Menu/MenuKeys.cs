@@ -8,6 +8,7 @@
         PageNotPublished,
         ParentNotFound,
         ParentTypeMismatch,
-        ParentCircularReference
+        ParentCircularReference,
+        CodeAlreadyExists
     }
 }

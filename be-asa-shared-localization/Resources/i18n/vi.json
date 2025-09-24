@@ -446,7 +446,8 @@
     "PageNotPublished": "Trang này chưa được public.",
     "ParentNotFound": "Menu cha không tồn tại.",
     "ParentTypeMismatch": "Vui lòng chọn menu cha có cùng loại.",
-    "ParentCircularReference": "Không thể gán menu cha, vì sẽ tạo vòng lặp trong cây menu."
+    "ParentCircularReference": "Không thể gán menu cha, vì sẽ tạo vòng lặp trong cây menu.",
+    "CodeAlreadyExists": "Mã menu đã tồn tại"
   },
   "media": {
     "TEXT_REQUIRED": "Text không được để trống."
