@@ -244,7 +244,8 @@
     "DELETE_PRODUCT_ERROR": "Error occurred while deleting product.",
     "GET_HIGHLIGHTED_PRODUCTS_ERROR": "Error occurred while getting highlighted products.",
     "GET_MAIN_PRODUCT_ERROR": "Error occurred while getting main product.",
-    "TEMPLATE_NOT_FOUND": "Product template not found."
+    "TEMPLATE_NOT_FOUND": "Product template not found.",
+    "FEATURE_NOT_FOUND": "Feature not found"
   },
   "header": {
     "HEADER_NOT_FOUND": "Header not found.",

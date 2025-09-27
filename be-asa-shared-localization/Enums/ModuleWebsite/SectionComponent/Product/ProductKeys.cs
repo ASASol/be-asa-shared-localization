@@ -47,6 +47,7 @@ namespace be_asa_shared_localization.Enums.ModuleWebsite.SectionComponent.Produc
         GET_HIGHLIGHTED_PRODUCTS_ERROR,
         GET_MAIN_PRODUCT_ERROR,
 
-        TEMPLATE_NOT_FOUND
+        TEMPLATE_NOT_FOUND,
+        FEATURE_NOT_FOUND
     }
 }
