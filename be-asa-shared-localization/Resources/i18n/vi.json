@@ -484,5 +484,11 @@
     "PAGE_TEMPLATE_NOT_FOUND": "Không tìm thấy PageTemplate.",
     "PAGE_TEMPLATE_CODE_EXIST": "Code PageTemplate đã tồn tại.",
     "PAGE_TEMPLATE_TYPE_NOT_FOUND": "Không tìm thấy PageTemplateType."
+  },
+  "faq": {
+    "NOT_FOUND": "Câu hỏi không tồn tại"
+  },
+  "diagram": {
+    "NOT_FOUND": "Diagram không tồn tại"
   }
 }

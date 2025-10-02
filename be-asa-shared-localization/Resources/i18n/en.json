@@ -484,5 +484,11 @@
     "PAGE_TEMPLATE_NOT_FOUND": "PageTemplate not found.",
     "PAGE_TEMPLATE_CODE_EXIST": "PageTemplate code already exists.",
     "PAGE_TEMPLATE_TYPE_NOT_FOUND": "PageTemplate type not found."
+  },
+  "faq": {
+    "NOT_FOUND": " Frequently asked questions not found"
+  },
+  "diagram": {
+    "NOT_FOUND": "Diagram not found"
   }
 }
