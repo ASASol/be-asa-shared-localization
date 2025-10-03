@@ -463,7 +463,9 @@
     "PARENT_NOT_FOUND": "Parent page not found.",
     "PARENT_SELF_REFERENCE": "A page cannot be its own parent.",
     "PARENT_CHILD_LOOP": "Cannot create a parent–child loop between pages.",
-    "PAGE_IN_USE_CANNOT_DELETE": "This page is currently used in a menu and cannot be deleted."
+    "PAGE_IN_USE_CANNOT_DELETE": "This page is currently used in a menu and cannot be deleted.",
+    "MAIN_IMAGE_REQUIRED": "The page must have at least one main image.",
+    "MULTIPLE_MAIN_IMAGES": "Only one main image is allowed."
   },
   "sectionTemplate": {
     "SECTION_TEMPLATE_TYPE_NOT_FOUND": "Section template type not found.",
