@@ -492,5 +492,15 @@
   },
   "diagram": {
     "NOT_FOUND": "Diagram không tồn tại"
+  },
+  "articleCategory": {
+    "NOT_FOUND": "Danh mục trang không tồn tại",
+    "NAME_ALREADY_EXISTS": "Tên danh mục trang đã tồn tại",
+    "SUBCATEGORY_IN_USE_CANNOT_DELETE": "Danh mục con đang tồn tại, không thể xóa"
+  },
+  "articleSubCategory": {
+    "NOT_FOUND": "Danh mục con không tồn tại",
+    "NAME_ALREADY_EXISTS": "Tên danh mục con đã tồn tại",
+    "SUBCATEGORY_IN_USE_CANNOT_DELETE": "Danh mục con đang tồn tại trang, không thể xóa"
   }
 }

@@ -492,5 +492,15 @@
   },
   "diagram": {
     "NOT_FOUND": "Diagram not found"
+  },
+  "articleCategory": {
+    "NOT_FOUND": "Article category not found",
+    "NAME_ALREADY_EXISTS": "Article category name already exists",
+    "SUBCATEGORY_IN_USE_CANNOT_DELETE": "Subcategories exist, cannot delete"
+  },
+  "articleSubCategory": {
+    "NOT_FOUND": "Article subcategory not found",
+    "NAME_ALREADY_EXISTS": "Article subcategory name already exists",
+    "SUBCATEGORY_IN_USE_CANNOT_DELETE": "Subcategory is in use, cannot delete"
   }
 }
