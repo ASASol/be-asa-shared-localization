@@ -485,7 +485,8 @@
     "SECTION_UPDATE_FAILED": "Failed to update section.",
     "SECTION_DELETE_FAILED": "Failed to delete section.",
     "SECTION_CAN_NOT_UPDATE": "This section cannot be updated because it is in use or restricted.",
-    "SECTION_CAN_NOT_DELETE": "This section cannot be deleted because it is in use or restricted."
+    "SECTION_CAN_NOT_DELETE": "This section cannot be deleted because it is in use or restricted.",
+    "SECTION_CAN_NOT_CREATE": "This section cannot be created because it is restricted or invalid."
   },
   "pageTemplate": {
     "PAGE_TEMPLATE_NOT_FOUND": "PageTemplate not found.",

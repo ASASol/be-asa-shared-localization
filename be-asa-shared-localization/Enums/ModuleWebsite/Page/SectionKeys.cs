@@ -4,6 +4,7 @@
     {
         SECTION_NOT_FOUND,
         SECTION_CAN_NOT_UPDATE,
-        SECTION_CAN_NOT_DELETE
+        SECTION_CAN_NOT_DELETE,
+        SECTION_CAN_NOT_CREATE
     }
 }

@@ -485,7 +485,8 @@
     "SECTION_UPDATE_FAILED": "Cập nhật section thất bại.",
     "SECTION_DELETE_FAILED": "Xóa section thất bại.",
     "SECTION_CAN_NOT_UPDATE": "Không thể cập nhật section này vì section đang được sử dụng hoặc bị giới hạn.",
-    "SECTION_CAN_NOT_DELETE": "Không thể xóa section này vì section đang được sử dụng hoặc bị giới hạn."
+    "SECTION_CAN_NOT_DELETE": "Không thể xóa section này vì section đang được sử dụng hoặc bị giới hạn.",
+    "SECTION_CAN_NOT_CREATE": "Không thể tạo section này vì bị giới hạn hoặc không hợp lệ."
   },
   "pageTemplate": {
     "PAGE_TEMPLATE_NOT_FOUND": "Không tìm thấy PageTemplate.",
