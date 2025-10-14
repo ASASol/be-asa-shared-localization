@@ -438,7 +438,8 @@
     "UNAUTHORIZED_ACCESS": "Không có quyền truy cập thông tin công ty.",
     "FORBIDDEN_ACCESS": "Truy cập thông tin công ty bị cấm.",
     "INTERNAL_ERROR": "Lỗi hệ thống khi xử lý thông tin công ty.",
-    "INVALID_REQUEST": "Yêu cầu thông tin công ty không hợp lệ."
+    "INVALID_REQUEST": "Yêu cầu thông tin công ty không hợp lệ.",
+    "AT_LEAST_ONE_DEFAULT": "Phải có ít nhất một thông tin công ty được đặt làm mặc định."
   },
   "menu": {
     "NotFound": "Menu không tồn tại.",
@@ -465,7 +466,9 @@
     "PARENT_CHILD_LOOP": "Không thể tạo vòng lặp cha – con giữa các trang.",
     "PAGE_IN_USE_CANNOT_DELETE": "Trang này đang được sử dụng trong menu, không thể xoá.",
     "MAIN_IMAGE_REQUIRED": "Trang phải có ít nhất một ảnh chính.",
-    "MULTIPLE_MAIN_IMAGES": "Chỉ được phép có duy nhất một ảnh chính."
+    "MULTIPLE_MAIN_IMAGES": "Chỉ được phép có duy nhất một ảnh chính.",
+    "PAGE_CAN_NOT_UPDATE": "Không thể cập nhật trang này vì trang đang được sử dụng hoặc bị giới hạn.",
+    "PAGE_CAN_NOT_DELETE": "Không thể xóa trang này vì trang đang được sử dụng hoặc bị giới hạn."
   },
   "sectionTemplate": {
     "SECTION_TEMPLATE_TYPE_NOT_FOUND": "Không tìm thấy loại Section Template.",
@@ -480,7 +483,9 @@
     "SECTION_DELETE_SUCCESS": "Xóa section thành công.",
     "SECTION_CREATE_FAILED": "Tạo section thất bại.",
     "SECTION_UPDATE_FAILED": "Cập nhật section thất bại.",
-    "SECTION_DELETE_FAILED": "Xóa section thất bại."
+    "SECTION_DELETE_FAILED": "Xóa section thất bại.",
+    "SECTION_CAN_NOT_UPDATE": "Không thể cập nhật section này vì section đang được sử dụng hoặc bị giới hạn.",
+    "SECTION_CAN_NOT_DELETE": "Không thể xóa section này vì section đang được sử dụng hoặc bị giới hạn."
   },
   "pageTemplate": {
     "PAGE_TEMPLATE_NOT_FOUND": "Không tìm thấy PageTemplate.",

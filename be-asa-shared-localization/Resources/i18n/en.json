@@ -438,7 +438,8 @@
     "UNAUTHORIZED_ACCESS": "Unauthorized access to company information.",
     "FORBIDDEN_ACCESS": "Access to company information is forbidden.",
     "INTERNAL_ERROR": "Internal server error occurred while processing company information.",
-    "INVALID_REQUEST": "Invalid request for company information."
+    "INVALID_REQUEST": "Invalid request for company information.",
+    "AT_LEAST_ONE_DEFAULT": "There must be at least one company information set as default."
   },
   "menu": {
     "NotFound": "Menu not found.",
@@ -465,7 +466,9 @@
     "PARENT_CHILD_LOOP": "Cannot create a parent–child loop between pages.",
     "PAGE_IN_USE_CANNOT_DELETE": "This page is currently used in a menu and cannot be deleted.",
     "MAIN_IMAGE_REQUIRED": "The page must have at least one main image.",
-    "MULTIPLE_MAIN_IMAGES": "Only one main image is allowed."
+    "MULTIPLE_MAIN_IMAGES": "Only one main image is allowed.",
+    "PAGE_CAN_NOT_UPDATE": "This page cannot be updated because it is in use or restricted.",
+    "PAGE_CAN_NOT_DELETE": "This page cannot be deleted because it is in use or restricted."
   },
   "sectionTemplate": {
     "SECTION_TEMPLATE_TYPE_NOT_FOUND": "Section template type not found.",
@@ -480,7 +483,9 @@
     "SECTION_DELETE_SUCCESS": "Section deleted successfully.",
     "SECTION_CREATE_FAILED": "Failed to create section.",
     "SECTION_UPDATE_FAILED": "Failed to update section.",
-    "SECTION_DELETE_FAILED": "Failed to delete section."
+    "SECTION_DELETE_FAILED": "Failed to delete section.",
+    "SECTION_CAN_NOT_UPDATE": "This section cannot be updated because it is in use or restricted.",
+    "SECTION_CAN_NOT_DELETE": "This section cannot be deleted because it is in use or restricted."
   },
   "pageTemplate": {
     "PAGE_TEMPLATE_NOT_FOUND": "PageTemplate not found.",

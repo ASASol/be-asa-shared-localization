@@ -16,6 +16,7 @@ namespace be_asa_shared_localization.Enums.ModuleWebsite.SectionComponent.Aubout
         UNAUTHORIZED_ACCESS,
         FORBIDDEN_ACCESS,
         INTERNAL_ERROR,
-        INVALID_REQUEST
+        INVALID_REQUEST,
+        AT_LEAST_ONE_DEFAULT
     }
 }
