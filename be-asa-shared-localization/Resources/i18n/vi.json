@@ -505,6 +505,7 @@
     "CATEGORY_IN_USE_CANNOT_DELETE": "Danh mục đang tồn tại, không thể xóa",
     "PARENT_CANNOT_BE_SELF": "ParentId không được trùng với Id của chính danh mục",
     "PARENT_NOT_FOUND": "ParentId không tồn tại",
-    "PARENT_CIRCULAR_REFERENCE": "ParentId tạo vòng lặp đa cấp, không hợp lệ"
+    "PARENT_CIRCULAR_REFERENCE": "ParentId tạo vòng lặp đa cấp, không hợp lệ",
+    "SORT_ORDER_INVALID": "Thứ tự hiển thị phải lớn hơn 0."
   }
 }

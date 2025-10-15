@@ -505,6 +505,7 @@
     "CATEGORY_IN_USE_CANNOT_DELETE": "Categories exist, cannot delete",
     "PARENT_CANNOT_BE_SELF": "ParentId cannot be the same as the category itself",
     "PARENT_NOT_FOUND": "ParentId does not exist",
-    "PARENT_CIRCULAR_REFERENCE": "ParentId causes circular reference"
+    "PARENT_CIRCULAR_REFERENCE": "ParentId causes circular reference",
+    "SORT_ORDER_INVALID": "Sort order must be greater than zero."
   }
 }

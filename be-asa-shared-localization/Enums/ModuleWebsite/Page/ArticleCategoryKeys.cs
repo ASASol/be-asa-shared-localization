@@ -7,6 +7,7 @@
         CATEGORY_IN_USE_CANNOT_DELETE, // Khi còn category nên không xóa được
         PARENT_CANNOT_BE_SELF,          // Parent trùng chính nó
         PARENT_NOT_FOUND,               // ParentId không tồn tại
-        PARENT_CIRCULAR_REFERENCE       // Vòng lặp đa cấp
+        PARENT_CIRCULAR_REFERENCE,      // Vòng lặp đa cấp
+        SORT_ORDER_INVALID
     }
 }
