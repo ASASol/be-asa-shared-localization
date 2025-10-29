@@ -193,7 +193,8 @@
     "USER_ALREADY_ACTIVATED": "Người dùng đã được kích hoạt trước đó.",
     "USER_ALREADY_LOCKED": "Người dùng này đã bị khóa.",
     "EMAIL_NOT_CONFIRMED": "Tài khoản chưa được xác thực email.",
-    "USER_ALREADY_UNLOCKED": "Người dùng này đã được mở khóa."
+    "USER_ALREADY_UNLOCKED": "Người dùng này đã được mở khóa.",
+    "INVALID_TOKEN_OR_EMAIL": "Token hoặc email không hợp lệ."
   },
   "system-settings": {
     "NOT_FOUND": "Không tìm thấy thiết lập hệ thống.",
