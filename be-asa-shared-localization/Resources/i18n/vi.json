@@ -194,7 +194,8 @@
     "USER_ALREADY_LOCKED": "Người dùng này đã bị khóa.",
     "EMAIL_NOT_CONFIRMED": "Tài khoản chưa được xác thực email.",
     "USER_ALREADY_UNLOCKED": "Người dùng này đã được mở khóa.",
-    "INVALID_TOKEN_OR_EMAIL": "Token hoặc email không hợp lệ."
+    "INVALID_TOKEN_OR_EMAIL": "Token hoặc email không hợp lệ.",
+    "PASSWORD_RESET_FAILED": "Đặt lại mật khẩu thất bại: {0}"
   },
   "system-settings": {
     "NOT_FOUND": "Không tìm thấy thiết lập hệ thống.",

@@ -194,7 +194,8 @@
     "USER_ALREADY_LOCKED": "This user is already locked.",
     "EMAIL_NOT_CONFIRMED": "The account has not been email confirmed.",
     "USER_ALREADY_UNLOCKED": "This user is already unlocked.",
-    "INVALID_TOKEN_OR_EMAIL": "Invalid token or email."
+    "INVALID_TOKEN_OR_EMAIL": "Invalid token or email.",
+    "PASSWORD_RESET_FAILED": "Password reset failed: {0}"
   },
   "system-settings": {
     "NOT_FOUND": "System setting not found.",
