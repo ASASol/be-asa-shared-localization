@@ -514,5 +514,8 @@
     "PARENT_NOT_FOUND": "ParentId không tồn tại",
     "PARENT_CIRCULAR_REFERENCE": "ParentId tạo vòng lặp đa cấp, không hợp lệ",
     "SORT_ORDER_INVALID": "Thứ tự hiển thị phải lớn hơn 0."
+  },
+  "banner": {
+    "NOT_FOUND": "Không tìm thấy banner."
   }
 }

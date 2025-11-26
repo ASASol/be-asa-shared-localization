@@ -514,5 +514,8 @@
     "PARENT_NOT_FOUND": "ParentId does not exist",
     "PARENT_CIRCULAR_REFERENCE": "ParentId causes circular reference",
     "SORT_ORDER_INVALID": "Sort order must be greater than zero."
+  },
+  "banner": {
+    "NOT_FOUND": "Banner not found."
   }
 }
