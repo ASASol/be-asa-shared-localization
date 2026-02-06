@@ -552,6 +552,7 @@
     "PROMO_NOT_FOUND": "{0} type does not exist or has been deleted.",
     "INVALID_PROMO_TYPE": "Invalid discount or surcharge type.",
     "PROMO_VALUE_OUT_OF_RANGE": "{0} value must be between 0 and 100%.",
-    "PROMO_VALUE_FIXED": "{0} '{1}' is fixed at {2}%. You are not allowed to enter {3}%."
+    "PROMO_VALUE_FIXED": "{0} '{1}' is fixed at {2}%. You are not allowed to enter {3}%.",
+    "ITEM_CODE_REQUIRED": "Item code (CtdbhMaSoChiTiet) is required when adding a new item."
   }
 }

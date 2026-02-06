@@ -27,5 +27,6 @@
         INVALID_PROMO_TYPE,                      // Không đúng loại giảm giá hoặc phụ thu
         PROMO_VALUE_OUT_OF_RANGE,                // Giá trị % phải từ 0-100
         PROMO_VALUE_FIXED,                       // Giá trị đã cố định, không được sửa
+        ITEM_CODE_REQUIRED
     }
 }

@@ -552,6 +552,7 @@
     "PROMO_NOT_FOUND": "Loại {0} không tồn tại hoặc đã bị xóa.",
     "INVALID_PROMO_TYPE": "Loại giảm giá hoặc phụ thu không hợp lệ.",
     "PROMO_VALUE_OUT_OF_RANGE": "Giá trị {0} phải nằm trong khoảng từ 0 đến 100%.",
-    "PROMO_VALUE_FIXED": "{0} '{1}' được cấu hình cố định là {2}%. Bạn không được phép nhập {3}%."
+    "PROMO_VALUE_FIXED": "{0} '{1}' được cấu hình cố định là {2}%. Bạn không được phép nhập {3}%.",
+    "ITEM_CODE_REQUIRED": "Vui lòng truyền mã món ăn (CtdbhMaSoChiTiet) khi thêm món mới."
   }
 }
