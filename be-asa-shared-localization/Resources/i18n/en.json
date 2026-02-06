@@ -555,6 +555,14 @@
     "PROMO_VALUE_FIXED": "{0} '{1}' is fixed at {2}%. You are not allowed to enter {3}%.",
     "ITEM_CODE_REQUIRED": "Item code (CtdbhMaSoChiTiet) is required when adding a new item.",
     "DISCOUNT_LABEL": "Discount",
-    "SURCHARGE_LABEL": "Surcharge"
+    "SURCHARGE_LABEL": "Surcharge",
+    "ORDER_ALREADY_PAID": "The order has already been paid and cannot be modified.",
+    "ORDER_CANNOT_BE_DELETED": "The order has existing data and cannot be deleted.",
+    "INVALID_GUEST_COUNT": "Number of guests must be 0 or greater.",
+    "SHIFT_CLOSED": "The current shift is closed.",
+    "NOT_ENOUGH_STOCK": "Item '{0}' is out of stock or insufficient inventory.",
+    "VOID_REASON_REQUIRED": "Void reason is required when canceling an item.",
+    "KITCHEN_ALREADY_PROCESSING": "The item is already being processed in the kitchen and cannot be modified.",
+    "TABLE_STILL_OCCUPIED": "The table is still occupied."
   }
 }

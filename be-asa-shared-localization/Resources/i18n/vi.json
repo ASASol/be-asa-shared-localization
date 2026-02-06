@@ -555,6 +555,14 @@
     "PROMO_VALUE_FIXED": "{0} '{1}' được cấu hình cố định là {2}%. Bạn không được phép nhập {3}%.",
     "ITEM_CODE_REQUIRED": "Vui lòng truyền mã món ăn (CtdbhMaSoChiTiet) khi thêm món mới.",
     "DISCOUNT_LABEL": "Giảm giá",
-    "SURCHARGE_LABEL": "Phụ thu"
+    "SURCHARGE_LABEL": "Phụ thu",
+    "ORDER_ALREADY_PAID": "Đơn hàng đã được thanh toán, không thể thay đổi.",
+    "ORDER_CANNOT_BE_DELETED": "Đơn hàng đã phát sinh dữ liệu, không thể xóa.",
+    "INVALID_GUEST_COUNT": "Số lượng khách phải lớn hơn hoặc bằng 0.",
+    "SHIFT_CLOSED": "Ca làm việc hiện tại đã đóng.",
+    "NOT_ENOUGH_STOCK": "Món '{0}' đã hết hàng hoặc không đủ tồn kho.",
+    "VOID_REASON_REQUIRED": "Vui lòng chọn lý do khi hủy món.",
+    "KITCHEN_ALREADY_PROCESSING": "Món ăn đã được bếp chế biến, không thể hủy/sửa.",
+    "TABLE_STILL_OCCUPIED": "Bàn đang có khách ngồi, vui lòng kiểm tra lại."
   }
 }

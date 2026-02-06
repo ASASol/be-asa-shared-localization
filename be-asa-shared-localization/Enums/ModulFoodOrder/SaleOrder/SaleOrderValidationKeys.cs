@@ -30,5 +30,14 @@
         ITEM_CODE_REQUIRED,
         DISCOUNT_LABEL,                  // Nhãn "Giảm giá"
         SURCHARGE_LABEL,                 // Nhãn "Phụ thu"
+
+        ORDER_ALREADY_PAID,              // Đơn hàng đã thanh toán xong
+        ORDER_CANNOT_BE_DELETED,         // Đơn hàng không thể xóa (đã phát sinh chi tiết/thanh toán)
+        INVALID_GUEST_COUNT,             // Số khách không hợp lệ
+        SHIFT_CLOSED,                    // Ca làm việc đã đóng
+        NOT_ENOUGH_STOCK,                // Không đủ tồn kho cho món: {0}
+        VOID_REASON_REQUIRED,            // Bắt buộc phải có lý do hủy món
+        KITCHEN_ALREADY_PROCESSING,       // Bếp đã bắt đầu làm, không thể chỉnh sửa/hủy
+        TABLE_STILL_OCCUPIED             // Bàn vẫn đang có khách, không thể thực hiện thao tác này
     }
 }
