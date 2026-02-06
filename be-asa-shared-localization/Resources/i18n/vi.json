@@ -533,6 +533,8 @@
   },
   "saleOrderValidation": {
     "INVALID_SALE_METHOD": "Hình thức bán hàng không hợp lệ.",
+    "INVALID_PAYMENT_STATUS": "Tình trạng chi trả không hợp lệ.",
+    "INVALID_ORDER_TYPE": "Loại đơn hàng không hợp lệ.",
     "DEPARTMENT_NOT_FOUND": "Bộ phận không tồn tại hoặc đang bị khóa.",
     "OUTLET_NOT_FOUND": "Outlet không tồn tại.",
     "TABLE_NOT_FOUND": "Bàn/Phòng không tồn tại.",
@@ -541,11 +543,14 @@
     "ITEM_QUANTITY_MUST_BE_GREATER_THAN_ZERO": "Số lượng món ăn phải lớn hơn 0.",
     "ITEM_NOT_FOUND_OR_DELETED": "Món ăn '{0}' không tồn tại hoặc đã bị xóa.",
     "MISSING_SIDE_ORDER_REF": "Món '{0}' thiếu mã liên kết SideOrderMaSoRef.",
+    "DUPLICATE_SIDE_ORDER_REF": "Phát hiện trùng mã định danh dòng (SideOrderMaSoRef): {0}.",
     "SIDE_ORDER_NOT_ALLOWED": "Món '{0}' không được phép bán kèm với món chính '{1}'.",
     "MANDATORY_SIDE_ORDER_MISSING": "Món chính '{0}' yêu cầu bắt buộc phải chọn món kèm: '{1}'.",
     "PRICE_UPDATE_NOT_ALLOWED": "Món '{0}' được cấu hình không cho phép sửa giá.",
     "NAME_UPDATE_NOT_ALLOWED": "Món '{0}' được cấu hình không cho phép đổi tên.",
+    "ITEM_ALREADY_DELETED": "Món '{0}' đã được xoá trước đó.",
     "PROMO_NOT_FOUND": "Loại {0} không tồn tại hoặc đã bị xóa.",
+    "INVALID_PROMO_TYPE": "Loại giảm giá hoặc phụ thu không hợp lệ.",
     "PROMO_VALUE_OUT_OF_RANGE": "Giá trị {0} phải nằm trong khoảng từ 0 đến 100%.",
     "PROMO_VALUE_FIXED": "{0} '{1}' được cấu hình cố định là {2}%. Bạn không được phép nhập {3}%."
   }
