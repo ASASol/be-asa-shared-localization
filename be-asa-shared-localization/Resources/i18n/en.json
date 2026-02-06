@@ -530,5 +530,23 @@
     "INVOICE_ALREADY_ISSUED": "Invoice has already been issued and cannot be edited.",
     "REQUEST_DATA_INVALID": "Invalid request data.",
     "ORDER_NOT_FOUND": "Sales order not found for invoice printing."
+  },
+  "saleOrderValidation": {
+    "INVALID_SALE_METHOD": "Invalid sale method.",
+    "DEPARTMENT_NOT_FOUND": "Department not found or is locked.",
+    "OUTLET_NOT_FOUND": "Outlet not found.",
+    "TABLE_NOT_FOUND": "Table/Room not found.",
+    "ORDER_CLOSED_OR_NOT_FOUND": "Order not found or has been closed/paid.",
+    "INVALID_TIME_FORMAT": "Invalid time format (Begin/End time).",
+    "ITEM_QUANTITY_MUST_BE_GREATER_THAN_ZERO": "Item quantity must be greater than 0.",
+    "ITEM_NOT_FOUND_OR_DELETED": "Item '{0}' does not exist or has been deleted.",
+    "MISSING_SIDE_ORDER_REF": "Item '{0}' is missing SideOrderMaSoRef.",
+    "SIDE_ORDER_NOT_ALLOWED": "Item '{0}' is not allowed as a side order for '{1}'.",
+    "MANDATORY_SIDE_ORDER_MISSING": "Main item '{0}' requires mandatory side order: '{1}'.",
+    "PRICE_UPDATE_NOT_ALLOWED": "Price update is not allowed for item '{0}'.",
+    "NAME_UPDATE_NOT_ALLOWED": "Name update is not allowed for item '{0}'.",
+    "PROMO_NOT_FOUND": "{0} type not found or deleted.",
+    "PROMO_VALUE_OUT_OF_RANGE": "{0} value must be between 0 and 100%.",
+    "PROMO_VALUE_FIXED": "{0} '{1}' is fixed at {2}%. You are not allowed to enter {3}%."
   }
 }
