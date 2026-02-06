@@ -517,5 +517,18 @@
   },
   "banner": {
     "NOT_FOUND": "Không tìm thấy banner."
+  },
+  "table": {
+    "TABLE_NOT_FOUND": "Không tìm thấy bàn/phòng.",
+    "TABLE_NOT_FOUND_WITH_CODE": "Không tìm thấy bàn/phòng với mã: {0}.",
+    "TABLE_STATUS_INVALID": "Trạng thái bàn/phòng không hợp lệ."
+  },
+  "printInvoice": {
+    "PRINT_INVOICE_NOT_FOUND": "Đơn hàng này chưa có thông tin hóa đơn.",
+    "COMPANY_NAME_REQUIRED": "Tên công ty là bắt buộc.",
+    "PAYMENT_METHOD_INVALID": "Hình thức thanh toán không hợp lệ hoặc không tồn tại.",
+    "INVOICE_ALREADY_ISSUED": "Hóa đơn đã được phát hành, không thể chỉnh sửa thông tin.",
+    "REQUEST_DATA_INVALID": "Dữ liệu yêu cầu không hợp lệ.",
+    "ORDER_NOT_FOUND": "Không tìm thấy đơn bán hàng để in hóa đơn."
   }
 }

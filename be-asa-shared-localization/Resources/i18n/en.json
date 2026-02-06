@@ -517,5 +517,18 @@
   },
   "banner": {
     "NOT_FOUND": "Banner not found."
+  },
+  "table": {
+    "TABLE_NOT_FOUND": "Table/Room not found.",
+    "TABLE_NOT_FOUND_WITH_CODE": "Could not find table/room with code: {0}.",
+    "TABLE_STATUS_INVALID": "Table/Room status is invalid."
+  },
+  "printInvoice": {
+    "PRINT_INVOICE_NOT_FOUND": "Invoice information not found for this order.",
+    "COMPANY_NAME_REQUIRED": "Company name is required.",
+    "PAYMENT_METHOD_INVALID": "Invalid or non-existent payment method.",
+    "INVOICE_ALREADY_ISSUED": "Invoice has already been issued and cannot be edited.",
+    "REQUEST_DATA_INVALID": "Invalid request data.",
+    "ORDER_NOT_FOUND": "Sales order not found for invoice printing."
   }
 }
