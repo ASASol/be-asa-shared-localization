@@ -573,5 +573,12 @@
     "DEFAULT_CURRENCY_MISSING": "Default currency has not been set in the system.",
     "SHIFT_NOT_FOUND": "Current time does not match any configured work shifts.",
     "INVALID_TIME_FORMAT": "Invalid time format '{0}', calculation could not be performed."
+  },
+  "saleOrder": {
+    "DATA_IS_LOCKED": "Data is currently locked by user: {0}. Action denied.",
+    "ORDER_INFO_MISSING": "Order is missing Outlet/Department information.",
+    "SERVICE_NOT_FOUND": "Service does not exist, please check configuration.",
+    "CURRENCY_PARAM_NOT_FOUND": "Currency configuration parameters not found.",
+    "PRODUCT_NOT_FOUND_LIST": "Product(s) not found: {0}."
   }
 }

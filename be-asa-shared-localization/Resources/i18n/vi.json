@@ -573,5 +573,12 @@
     "DEFAULT_CURRENCY_MISSING": "Hệ thống chưa thiết lập tiền tệ mặc định.",
     "SHIFT_NOT_FOUND": "Giờ hiện hành không thuộc bất kỳ ca làm việc nào đã cấu hình.",
     "INVALID_TIME_FORMAT": "Định dạng thời gian '{0}' không hợp lệ, không thể thực hiện tính toán."
+  },
+  "saleOrder": {
+    "DATA_IS_LOCKED": "Dữ liệu đang được khóa bởi nhân viên: {0}. Bạn không thể thao tác.",
+    "ORDER_INFO_MISSING": "Đơn hàng thiếu thông tin Outlet/Phòng ban.",
+    "SERVICE_NOT_FOUND": "Dịch vụ không tồn tại, vui lòng kiểm tra lại cấu hình.",
+    "CURRENCY_PARAM_NOT_FOUND": "Không tìm thấy thông số cấu hình tiền tệ.",
+    "PRODUCT_NOT_FOUND_LIST": "Không tìm thấy sản phẩm: {0}."
   }
 }
