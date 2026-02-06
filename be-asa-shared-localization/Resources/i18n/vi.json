@@ -564,5 +564,14 @@
     "VOID_REASON_REQUIRED": "Vui lòng chọn lý do khi hủy món.",
     "KITCHEN_ALREADY_PROCESSING": "Món ăn đã được bếp chế biến, không thể hủy/sửa.",
     "TABLE_STILL_OCCUPIED": "Bàn đang có khách ngồi, vui lòng kiểm tra lại."
+  },
+  "saleOrderCalculator": {
+    "VOUCHER_CONFIG_MISSING": "Chưa cấu hình quy tắc tạo mã tự tăng cho loại: {0}.",
+    "VOUCHER_GENERATION_FAILED": "Hệ thống không thể tạo mã đơn hàng tự động. Vui lòng kiểm tra lại cấu hình OutputLen.",
+    "CURRENCY_CONFIG_MISSING": "Thiếu cấu hình hệ thống cho tham số tiền tệ: {0}.",
+    "CURRENCY_DATA_NOT_FOUND": "Không tìm thấy thông tin tỷ giá cho loại tiền: {0}.",
+    "DEFAULT_CURRENCY_MISSING": "Hệ thống chưa thiết lập tiền tệ mặc định.",
+    "SHIFT_NOT_FOUND": "Giờ hiện hành không thuộc bất kỳ ca làm việc nào đã cấu hình.",
+    "INVALID_TIME_FORMAT": "Định dạng thời gian '{0}' không hợp lệ, không thể thực hiện tính toán."
   }
 }

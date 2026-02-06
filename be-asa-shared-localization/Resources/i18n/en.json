@@ -564,5 +564,14 @@
     "VOID_REASON_REQUIRED": "Void reason is required when canceling an item.",
     "KITCHEN_ALREADY_PROCESSING": "The item is already being processed in the kitchen and cannot be modified.",
     "TABLE_STILL_OCCUPIED": "The table is still occupied."
+  },
+  "saleOrderCalculator": {
+    "VOUCHER_CONFIG_MISSING": "Voucher generation rule for type {0} is not configured.",
+    "VOUCHER_GENERATION_FAILED": "System failed to generate an automatic order ID. Please check the OutputLen configuration.",
+    "CURRENCY_CONFIG_MISSING": "System parameter missing for currency config: {0}.",
+    "CURRENCY_DATA_NOT_FOUND": "Exchange rate information not found for currency: {0}.",
+    "DEFAULT_CURRENCY_MISSING": "Default currency has not been set in the system.",
+    "SHIFT_NOT_FOUND": "Current time does not match any configured work shifts.",
+    "INVALID_TIME_FORMAT": "Invalid time format '{0}', calculation could not be performed."
   }
 }
