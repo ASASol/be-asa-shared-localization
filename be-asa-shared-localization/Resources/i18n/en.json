@@ -579,6 +579,7 @@
     "ORDER_INFO_MISSING": "Order is missing Outlet/Department information.",
     "SERVICE_NOT_FOUND": "Service does not exist, please check configuration.",
     "CURRENCY_PARAM_NOT_FOUND": "Currency configuration parameters not found.",
-    "PRODUCT_NOT_FOUND_LIST": "Product(s) not found: {0}."
+    "PRODUCT_NOT_FOUND_LIST": "Product(s) not found: {0}.",
+    "INVALID_LOCK_TYPE": "Invalid lock type. (1: Lock for ordering, 2: Lock for payment)"
   }
 }
