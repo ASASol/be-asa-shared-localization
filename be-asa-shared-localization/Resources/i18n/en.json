@@ -563,7 +563,11 @@
     "NOT_ENOUGH_STOCK": "Item '{0}' is out of stock or insufficient inventory.",
     "VOID_REASON_REQUIRED": "Void reason is required when canceling an item.",
     "KITCHEN_ALREADY_PROCESSING": "The item is already being processed in the kitchen and cannot be modified.",
-    "TABLE_STILL_OCCUPIED": "The table is still occupied."
+    "TABLE_STILL_OCCUPIED": "The table is still occupied.",
+    "CANNOT_DELETE_MAIN_ITEM_WITH_ACTIVE_CHILDREN": "Cannot delete main item '{0}' because there are active side orders. Please remove all side orders first.",
+    "MANDATORY_SIDE_ORDER_DELETE_NOT_ALLOWED": "Item '{0}' is mandatory for the main dish. You cannot delete it individually; the main item must be deleted.",
+    "ITEM_NOT_EXIST_IN_ORDER": "Item (ID: {0}) does not exist in the current order.",
+    "INVALID_SIDE_ORDER_TYPE": "Invalid side order type."
   },
   "saleOrderCalculator": {
     "VOUCHER_CONFIG_MISSING": "Voucher generation rule for type {0} is not configured.",

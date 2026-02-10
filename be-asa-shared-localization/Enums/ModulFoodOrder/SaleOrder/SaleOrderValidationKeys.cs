@@ -38,6 +38,11 @@
         NOT_ENOUGH_STOCK,                // Không đủ tồn kho cho món: {0}
         VOID_REASON_REQUIRED,            // Bắt buộc phải có lý do hủy món
         KITCHEN_ALREADY_PROCESSING,       // Bếp đã bắt đầu làm, không thể chỉnh sửa/hủy
-        TABLE_STILL_OCCUPIED             // Bàn vẫn đang có khách, không thể thực hiện thao tác này
+        TABLE_STILL_OCCUPIED,            // Bàn vẫn đang có khách, không thể thực hiện thao tác này
+
+        CANNOT_DELETE_MAIN_ITEM_WITH_ACTIVE_CHILDREN, // Không thể xóa món chính khi còn món con hoạt động
+        MANDATORY_SIDE_ORDER_DELETE_NOT_ALLOWED,      // Không thể xóa lẻ món kèm bắt buộc
+        ITEM_NOT_EXIST_IN_ORDER,                      // Món không tồn tại trong đơn hàng
+        INVALID_SIDE_ORDER_TYPE,                      // Loại món ăn kèm không hợp lệ
     }
 }
