@@ -599,6 +599,7 @@
     "INVALID_DATE_FORMAT": "Định dạng ngày không hợp lệ. Vui lòng sử dụng yyyy-MM-dd.",
     "METRIC_EXECUTION_ERROR": "Có lỗi xảy ra khi lấy dữ liệu metric.",
     "DISPLAY_TYPE_NOT_FOUND": "Không tìm thấy loại hiển thị.",
-    "METRIC_NOT_FOUND": "Không tìm thấy metric."
+    "METRIC_NOT_FOUND": "Không tìm thấy metric.",
+    "DISPLAY_TYPE_NOT_SUPPORTED_BY_WIDGET": "Loại hiển thị không được hỗ trợ bởi widget."
   }
 }

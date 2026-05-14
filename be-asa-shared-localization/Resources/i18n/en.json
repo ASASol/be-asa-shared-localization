@@ -599,6 +599,7 @@
     "INVALID_DATE_FORMAT": "Invalid date format. Please use yyyy-MM-dd.",
     "METRIC_EXECUTION_ERROR": "An error occurred while retrieving metric data.",
     "DISPLAY_TYPE_NOT_FOUND": "Display type not found.",
-    "METRIC_NOT_FOUND": "Metric not found."
+    "METRIC_NOT_FOUND": "Metric not found.",
+    "DISPLAY_TYPE_NOT_SUPPORTED_BY_WIDGET": "Display type is not supported by the widget."
   }
 }
