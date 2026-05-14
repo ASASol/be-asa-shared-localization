@@ -44,7 +44,18 @@
     "DATA_DELETED": "Data deleted successfully.",
     "UNHANDLED_ERROR": "An unexpected error has occurred.",
     "NAME_CAN_NOT_EMPTY": "Name can not empty.",
-    "LOG_NOT_FOUND": "Log not found"
+    "LOG_NOT_FOUND": "Log not found",
+    "USER_NOT_FOUND_OR_INACTIVE": "User does not exist or is inactive.",
+    "WIDGET_NOT_FOUND": "Widget not found.",
+    "DASHBOARD_NOT_FOUND": "Dashboard not found.",
+    "USER_WIDGET_NOT_FOUND": "User widget not found.",
+    "WIDGET_POSITION_ALREADY_EXISTS": "A widget already exists at this position.",
+    "DUPLICATE_WIDGET_POSITION": "Duplicate widget position detected.",
+    "INVALID_WIDGETS_IN_DASHBOARD": "Some widgets do not belong to the user's dashboard.",
+    "REQUIRED_FIELD_MISSING": "Required field is missing.",
+    "INVALID_FIELD_FORMAT": "Invalid data format.",
+    "INVALID_DATE_FORMAT": "Invalid date format. Please use yyyy-MM-dd.",
+    "METRIC_EXECUTION_ERROR": "An error occurred while retrieving metric data."
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Branch already exists.",

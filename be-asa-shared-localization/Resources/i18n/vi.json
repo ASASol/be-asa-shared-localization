@@ -44,7 +44,18 @@
     "DATA_DELETED": "Xóa dữ liệu thành công.",
     "UNHANDLED_ERROR": "Đã xảy ra lỗi không xác định.",
     "NAME_CAN_NOT_EMPTY": "Tên không được trống",
-    "LOG_NOT_FOUND": "Không tìm thấy log"
+    "LOG_NOT_FOUND": "Không tìm thấy log",
+    "USER_NOT_FOUND_OR_INACTIVE": "Người dùng không tồn tại hoặc đã bị vô hiệu hóa.",
+    "WIDGET_NOT_FOUND": "Không tìm thấy widget.",
+    "DASHBOARD_NOT_FOUND": "Không tìm thấy dashboard.",
+    "USER_WIDGET_NOT_FOUND": "Không tìm thấy widget của người dùng.",
+    "WIDGET_POSITION_ALREADY_EXISTS": "Đã tồn tại widget tại vị trí này.",
+    "DUPLICATE_WIDGET_POSITION": "Phát hiện vị trí widget bị trùng.",
+    "INVALID_WIDGETS_IN_DASHBOARD": "Một số widget không thuộc dashboard của người dùng.",
+    "REQUIRED_FIELD_MISSING": "Trường dữ liệu bắt buộc chưa được nhập.",
+    "INVALID_FIELD_FORMAT": "Định dạng dữ liệu không hợp lệ.",
+    "INVALID_DATE_FORMAT": "Định dạng ngày không hợp lệ. Vui lòng sử dụng yyyy-MM-dd.",
+    "METRIC_EXECUTION_ERROR": "Có lỗi xảy ra khi lấy dữ liệu metric."
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Chi nhánh đã tồn tại.",
