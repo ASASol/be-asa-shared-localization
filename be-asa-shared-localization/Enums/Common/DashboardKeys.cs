@@ -1,0 +1,19 @@
+﻿namespace be_asa_shared_localization.Enums.Common
+{
+    public enum DashboardKeys
+    {
+        USER_NOT_FOUND_OR_INACTIVE,
+        WIDGET_NOT_FOUND,
+        DASHBOARD_NOT_FOUND,
+        USER_WIDGET_NOT_FOUND,
+        WIDGET_POSITION_ALREADY_EXISTS,
+        DUPLICATE_WIDGET_POSITION,
+        INVALID_WIDGETS_IN_DASHBOARD,
+        REQUIRED_FIELD_MISSING,
+        INVALID_FIELD_FORMAT,
+        INVALID_DATE_FORMAT,
+        METRIC_EXECUTION_ERROR,
+        DISPLAY_TYPE_NOT_FOUND,
+        METRIC_NOT_FOUND,
+    }
+}
