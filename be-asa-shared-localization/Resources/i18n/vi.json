@@ -600,6 +600,7 @@
     "METRIC_EXECUTION_ERROR": "Có lỗi xảy ra khi lấy dữ liệu metric.",
     "DISPLAY_TYPE_NOT_FOUND": "Không tìm thấy loại hiển thị.",
     "METRIC_NOT_FOUND": "Không tìm thấy metric.",
-    "DISPLAY_TYPE_NOT_SUPPORTED_BY_WIDGET": "Loại hiển thị không được hỗ trợ bởi widget."
+    "DISPLAY_TYPE_NOT_SUPPORTED_BY_WIDGET": "Loại hiển thị không được hỗ trợ bởi widget.",
+    "USER_WIDGET_ACCESS_DENIED": "Bạn không có quyền truy cập widget này."
   }
 }
