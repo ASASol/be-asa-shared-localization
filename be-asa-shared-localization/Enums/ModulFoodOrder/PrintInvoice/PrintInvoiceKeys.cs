@@ -15,6 +15,7 @@ namespace be_asa_shared_localization.Enums.ModulFoodOrder.PrintInvoice
         REQUEST_DATA_INVALID,              // Dữ liệu yêu cầu không hợp lệ
         ORDER_NOT_FOUND,                   // Không tìm thấy đơn bán hàng
         ORDER_ALREADY_REDUCED_CANNOT_PRINT_INVOICE,
-        REDUCTION_ORDER_CANNOT_PRINT_INVOICE
+        REDUCTION_ORDER_CANNOT_PRINT_INVOICE,
+        INVOICE_CANCELLED_CANNOT_ISSUE
     }
 }

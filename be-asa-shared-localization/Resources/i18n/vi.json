@@ -530,7 +530,8 @@
     "INVOICE_ALREADY_ISSUED": "Hóa đơn đã được phát hành, không thể chỉnh sửa thông tin.",
     "REQUEST_DATA_INVALID": "Dữ liệu yêu cầu không hợp lệ.",
     "ORDER_ALREADY_REDUCED_CANNOT_PRINT_INVOICE": "Không được xuất hóa đơn vì đơn hàng đã bị giảm trừ",
-    "REDUCTION_ORDER_CANNOT_PRINT_INVOICE": "Không được xuất hóa đơn cho đơn giảm trừ"
+    "REDUCTION_ORDER_CANNOT_PRINT_INVOICE": "Không được xuất hóa đơn cho đơn giảm trừ",
+    "INVOICE_CANCELLED_CANNOT_ISSUE": "Hóa đơn đã bị hủy, không thể phát hành."
   },
   "saleOrderValidation": {
     "INVALID_SALE_METHOD": "Hình thức bán hàng không hợp lệ.",

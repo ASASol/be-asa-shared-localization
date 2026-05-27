@@ -530,7 +530,8 @@
     "INVOICE_ALREADY_ISSUED": "Invoice has already been issued and cannot be edited.",
     "REQUEST_DATA_INVALID": "Invalid request data.",
     "ORDER_ALREADY_REDUCED_CANNOT_PRINT_INVOICE": "Cannot issue invoice because the order has already been reduced",
-    "REDUCTION_ORDER_CANNOT_PRINT_INVOICE": "Cannot issue invoice for a reduction order"
+    "REDUCTION_ORDER_CANNOT_PRINT_INVOICE": "Cannot issue invoice for a reduction order",
+    "INVOICE_CANCELLED_CANNOT_ISSUE": "The invoice has been cancelled and cannot be issued."
   },
   "saleOrderValidation": {
     "INVALID_SALE_METHOD": "Invalid sales method.",
