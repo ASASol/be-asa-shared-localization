@@ -529,7 +529,8 @@
     "PAYMENT_METHOD_INVALID": "Invalid or non-existent payment method.",
     "INVOICE_ALREADY_ISSUED": "Invoice has already been issued and cannot be edited.",
     "REQUEST_DATA_INVALID": "Invalid request data.",
-    "ORDER_NOT_FOUND": "Sales order not found for invoice printing."
+    "ORDER_ALREADY_REDUCED_CANNOT_PRINT_INVOICE": "Cannot issue invoice because the order has already been reduced",
+    "REDUCTION_ORDER_CANNOT_PRINT_INVOICE": "Cannot issue invoice for a reduction order"
   },
   "saleOrderValidation": {
     "INVALID_SALE_METHOD": "Invalid sales method.",
@@ -601,6 +602,7 @@
     "DISPLAY_TYPE_NOT_FOUND": "Display type not found.",
     "METRIC_NOT_FOUND": "Metric not found.",
     "DISPLAY_TYPE_NOT_SUPPORTED_BY_WIDGET": "Display type is not supported by the widget.",
-    "USER_WIDGET_ACCESS_DENIED": "You do not have permission to access this widget."
+    "USER_WIDGET_ACCESS_DENIED": "You do not have permission to access this widget.",
+    "WIDGET_CODE_ALREADY_EXISTS": "Widget code already exists"
   }
 }

@@ -529,7 +529,8 @@
     "PAYMENT_METHOD_INVALID": "Hình thức thanh toán không hợp lệ hoặc không tồn tại.",
     "INVOICE_ALREADY_ISSUED": "Hóa đơn đã được phát hành, không thể chỉnh sửa thông tin.",
     "REQUEST_DATA_INVALID": "Dữ liệu yêu cầu không hợp lệ.",
-    "ORDER_NOT_FOUND": "Không tìm thấy đơn bán hàng để in hóa đơn."
+    "ORDER_ALREADY_REDUCED_CANNOT_PRINT_INVOICE": "Không được xuất hóa đơn vì đơn hàng đã bị giảm trừ",
+    "REDUCTION_ORDER_CANNOT_PRINT_INVOICE": "Không được xuất hóa đơn cho đơn giảm trừ"
   },
   "saleOrderValidation": {
     "INVALID_SALE_METHOD": "Hình thức bán hàng không hợp lệ.",
@@ -601,6 +602,7 @@
     "DISPLAY_TYPE_NOT_FOUND": "Không tìm thấy loại hiển thị.",
     "METRIC_NOT_FOUND": "Không tìm thấy metric.",
     "DISPLAY_TYPE_NOT_SUPPORTED_BY_WIDGET": "Loại hiển thị không được hỗ trợ bởi widget.",
-    "USER_WIDGET_ACCESS_DENIED": "Bạn không có quyền truy cập widget này."
+    "USER_WIDGET_ACCESS_DENIED": "Bạn không có quyền truy cập widget này.",
+    "WIDGET_CODE_ALREADY_EXISTS": "Mã widget đã tồn tại"
   }
 }
