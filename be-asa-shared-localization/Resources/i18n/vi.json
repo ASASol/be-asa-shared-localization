@@ -221,7 +221,8 @@
     "SMS_API_KEY_MISSING": "Thiếu API key SMS.",
     "UNSUPPORTED_CHANNEL": "Kênh thông báo không được hỗ trợ.",
     "REQUIRE_OTHER_DEFAULT_BEFORE_UPDATE": "Cấu hình này đang là mặc định. Vui lòng chọn một cấu hình mặc định khác trong cùng kênh trước khi cập nhật.",
-    "UNSUPPORTED_LANGUAGE": "Ngôn ngữ không được hỗ trợ."
+    "UNSUPPORTED_LANGUAGE": "Ngôn ngữ không được hỗ trợ.",
+    "NOTIFICATION_DATA_NOT_FOUND": "Không tìm thấy dữ liệu thông báo."
   },
   "product": {
     "NOT_FOUND": "Không tìm thấy sản phẩm.",

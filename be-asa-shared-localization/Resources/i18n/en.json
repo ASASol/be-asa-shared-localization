@@ -221,7 +221,8 @@
     "SMS_API_KEY_MISSING": "SMS API key is required.",
     "UNSUPPORTED_CHANNEL": "Unsupported notification channel.",
     "REQUIRE_OTHER_DEFAULT_BEFORE_UPDATE": "This configuration is set as default. Please choose another default configuration in the same channel before updating.",
-    "UNSUPPORTED_LANGUAGE": "Unsupported language."
+    "UNSUPPORTED_LANGUAGE": "Unsupported language.",
+    "NOTIFICATION_DATA_NOT_FOUND": "Notification data not found."
   },
   "product": {
     "NOT_FOUND": "Product does not exist.",
