@@ -605,6 +605,7 @@
     "METRIC_NOT_FOUND": "Không tìm thấy metric.",
     "DISPLAY_TYPE_NOT_SUPPORTED_BY_WIDGET": "Loại hiển thị không được hỗ trợ bởi widget.",
     "USER_WIDGET_ACCESS_DENIED": "Bạn không có quyền truy cập widget này.",
-    "WIDGET_CODE_ALREADY_EXISTS": "Mã widget đã tồn tại"
+    "WIDGET_CODE_ALREADY_EXISTS": "Mã widget đã tồn tại",
+    "ONLY_OWN_DASHBOARD_ACCESS": "Bạn chỉ có quyền thao tác trên dashboard của chính mình."
   }
 }
