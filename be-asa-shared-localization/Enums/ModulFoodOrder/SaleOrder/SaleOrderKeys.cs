@@ -7,6 +7,7 @@
         SERVICE_NOT_FOUND,               // Dịch vụ không tồn tại
         CURRENCY_PARAM_NOT_FOUND,        // Không tìm thấy thông số tiền tệ
         PRODUCT_NOT_FOUND_LIST,          // Không tìm thấy danh sách sản phẩm: {0}
-        INVALID_LOCK_TYPE                // Đơn hàng đã bị khóa
+        INVALID_LOCK_TYPE,               // Đơn hàng đã bị khóa
+        CANNOT_CHANGE_TABLE_DIFFERENT_OUTLET  // Không thể chuyển bàn giữa các outlet khác nhau
     }
 }

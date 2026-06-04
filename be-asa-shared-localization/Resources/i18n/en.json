@@ -589,7 +589,8 @@
     "SERVICE_NOT_FOUND": "Service does not exist, please check configuration.",
     "CURRENCY_PARAM_NOT_FOUND": "Currency configuration parameters not found.",
     "PRODUCT_NOT_FOUND_LIST": "Product(s) not found: {0}.",
-    "INVALID_LOCK_TYPE": "Invalid lock type. (1: Lock for ordering, 2: Lock for payment)"
+    "INVALID_LOCK_TYPE": "Invalid lock type. (1: Lock for ordering, 2: Lock for payment)",
+    "CANNOT_CHANGE_TABLE_DIFFERENT_OUTLET": "Cannot change table between different outlets."
   },
   "dashboard": {
     "USER_NOT_FOUND_OR_INACTIVE": "User does not exist or is inactive.",
