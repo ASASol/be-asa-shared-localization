@@ -151,7 +151,9 @@
   "userSetting": {
     "NOT_FOUND": "User setting not found.",
     "ALREADY_EXISTS": "The user setting already exists.",
-    "CANNOT_DELETE": "This user setting cannot be deleted because it is in use."
+    "CANNOT_DELETE": "This user setting cannot be deleted because it is in use.",
+    "NOT_ALLOW_OVERRIDE": "This setting does not allow user modifications.",
+    "INVALID_OPTION_VALUE": "Invalid value. Please select a valid option from the allowed list."
   },
   "email": {
     "EMAIL_CONFIG_NOT_FOUND": "Email configuration not found",
