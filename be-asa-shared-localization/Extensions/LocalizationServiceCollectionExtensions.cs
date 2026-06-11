@@ -8,6 +8,7 @@ namespace be_asa_shared_localization.Extensions
     {
         public static IServiceCollection AddAsaJsonLocalization(this IServiceCollection services)
         {
+            // services.AddHttpContextAccessor();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSingleton<IJsonLocalizationService, JsonLocalizationService>();
             return services;

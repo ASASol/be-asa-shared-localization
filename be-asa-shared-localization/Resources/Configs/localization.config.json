@@ -1,8 +1,4 @@
 ﻿{
   "defaultLanguage": "vi",
-  "supportedLanguages": [
-    "vi",
-    "en",
-    "zh"
-  ]
+  "supportedLanguages": [ "vi", "en", "zh" ]
 }
