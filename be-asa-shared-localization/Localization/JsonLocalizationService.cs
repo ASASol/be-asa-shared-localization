@@ -58,7 +58,7 @@ namespace be_asa_shared_localization.Localization
 
         private void LoadConfig()
         {
-            var path = Path.Combine(AppContext.BaseDirectory,"Resources","Configs","localization.json");
+            var path = Path.Combine(AppContext.BaseDirectory,"Resources","Configs", "localization.config.json");
 
             if (!File.Exists(path))
             {

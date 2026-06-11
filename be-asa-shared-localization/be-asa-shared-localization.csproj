@@ -12,7 +12,7 @@
 		</Content>
 	</ItemGroup>
 	<ItemGroup>
-	  <Content Include="Resources\Configs\localization.json">
+	  <Content Include="Resources\Configs\**\*.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
 	</ItemGroup>
