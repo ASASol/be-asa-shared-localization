@@ -155,6 +155,10 @@
     "NOT_ALLOW_OVERRIDE": "This setting does not allow user modifications.",
     "INVALID_OPTION_VALUE": "Invalid value. Please select a valid option from the allowed list."
   },
+  "localizationAuth": {
+    "LOCALIZATION_NOT_FOUND": "Localization data was not found.",
+    "LOCALIZATION_ALREADY_EXISTS": "Localization already exists with the specified Type, Key and Language."
+  },
   "email": {
     "EMAIL_CONFIG_NOT_FOUND": "Email configuration not found",
     "EMAIL_TEMPLATE_NOT_FOUND": "Email template not found",

@@ -155,6 +155,10 @@
     "NOT_ALLOW_OVERRIDE": "Cài đặt này không cho phép người dùng thay đổi.",
     "INVALID_OPTION_VALUE": "Giá trị không hợp lệ. Vui lòng chọn đúng giá trị trong danh sách cho phép."
   },
+  "localizationAuth": {
+    "LOCALIZATION_NOT_FOUND": "Không tìm thấy dữ liệu đa ngôn ngữ.",
+    "LOCALIZATION_ALREADY_EXISTS": "Dữ liệu đa ngôn ngữ đã tồn tại với Type, Key và Language này."
+  },
   "email": {
     "EMAIL_CONFIG_NOT_FOUND": "Không tìm thấy cấu hình email",
     "EMAIL_TEMPLATE_NOT_FOUND": "Không tìm thấy template email",

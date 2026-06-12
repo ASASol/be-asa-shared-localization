@@ -36,7 +36,7 @@ namespace be_asa_shared_localization.Localization
             return key; // fallback
         }
 
-        private string GetRequestCulture()
+        public string GetRequestCulture()
         {
             var culture = _httpContextAccessor.HttpContext?.Request.Headers["Accept-Language"].ToString();
             
