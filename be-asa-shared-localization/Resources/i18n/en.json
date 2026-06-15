@@ -155,7 +155,7 @@
     "NOT_ALLOW_OVERRIDE": "This setting does not allow user modifications.",
     "INVALID_OPTION_VALUE": "Invalid value. Please select a valid option from the allowed list."
   },
-  "localizationAuth": {
+  "localizations": {
     "LOCALIZATION_NOT_FOUND": "Localization data was not found.",
     "LOCALIZATION_ALREADY_EXISTS": "Localization already exists with the specified Type, Key and Language."
   },
