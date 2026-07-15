@@ -32,7 +32,11 @@
     "MODULE_CLAIM_INVALID": "Không hợp lệ: Module trong claim không đúng hoặc thiếu.",
     "MODULE_INVALID": "Module không hợp lệ hoặc không tồn tại.",
     "PASSWORDS_DO_NOT_MATCH": "Mật khẩu xác nhận không khớp.",
-    "INVALID_OLD_PASSWORD": "Mật khẩu cũ không chính xác."
+    "INVALID_OLD_PASSWORD": "Mật khẩu cũ không chính xác.",
+    "INVALID_PASSCODE": "Mã Passcode không chính xác.",
+    "PASSCODE_REQUIRED": "Chức năng này yêu cầu xác thực Passcode.",
+    "PASSCODE_EXPIRED": "Phiên xác thực Passcode đã hết hạn. Vui lòng nhập lại Passcode.",
+    "COMMAND_IN_FUNCTION_NOT_FOUND": "Không tồn tại hành động trên chức năng."
   },
   "common": {
     "DATA_LOADED_SUCCESSFULLY": "Tải dữ liệu thành công.",
@@ -131,7 +135,11 @@
     "ASSIGN_ROLE_FAILED": "Gán vai trò thất bại.",
     "NEW_PASSWORD_CONFIRM_MISMATCH": "Mật khẩu mới và xác nhận mật khẩu không giống nhau.",
     "CANNOT_DELETE_OLD_PASSWORD": "Không thể xoá mật khẩu cũ.",
-    "CANNOT_SET_NEW_PASSWORD": "Không thể đặt mật khẩu mới."
+    "CANNOT_SET_NEW_PASSWORD": "Không thể đặt mật khẩu mới.",
+    "PASSCODE_REQUIRED": "Passcode không được để trống.",
+    "PASSCODE_LENGTH_INVALID": "Passcode phải có từ {0} đến {1} ký tự.",
+    "RESET_PASSCODE_FAILED": "Đặt lại Passcode thất bại.",
+    "NEW_PASSCODE_CONFIRM_MISMATCH": "Passcode mới và xác nhận Passcode không giống nhau."
   },
   "userPermissionGroup": {
     "INVALID_GROUPS": "Các nhóm quyền không hợp lệ.",
