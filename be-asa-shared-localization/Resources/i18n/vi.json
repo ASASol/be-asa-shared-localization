@@ -624,5 +624,17 @@
     "USER_WIDGET_ACCESS_DENIED": "Bạn không có quyền truy cập widget này.",
     "WIDGET_CODE_ALREADY_EXISTS": "Mã widget đã tồn tại",
     "ONLY_OWN_DASHBOARD_ACCESS": "Bạn chỉ có quyền thao tác trên dashboard của chính mình."
+  },
+  "qrcode": {
+    "DEPARTMENT_CODE_REQUIRED": "Department code is required.",
+    "OUTLET_CODE_REQUIRED": "Outlet code is required.",
+    "LOCATION_CODE_REQUIRED": "Location code is required.",
+    "TABLE_CODES_REQUIRED": "Table codes are required.",
+    "DEPARTMENT_NOT_FOUND": "Department not found.",
+    "OUTLET_NOT_FOUND_OR_NOT_BELONG_TO_DEPARTMENT": "Outlet not found or does not belong to this department.",
+    "LOCATION_NOT_FOUND_OR_NOT_BELONG_TO_OUTLET": "Location not found or does not belong to this outlet.",
+    "NO_TABLES_FOUND": "No tables found.",
+    "TABLES_NOT_FOUND_OR_NOT_BELONG_TO_LOCATION": "The following tables do not exist or do not belong to this location: {0}",
+    "QRCODE_GENERATED_SUCCESSFULLY": "QR code generated successfully."
   }
-}
+  }

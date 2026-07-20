@@ -1,0 +1,16 @@
+﻿namespace be_asa_shared_localization.Enums.ModulFoodOrder.QRCode
+{
+    public enum QRCodeKeys
+    {
+        DEPARTMENT_CODE_REQUIRED,
+        OUTLET_CODE_REQUIRED,
+        LOCATION_CODE_REQUIRED,
+        TABLE_CODES_REQUIRED,
+        DEPARTMENT_NOT_FOUND,
+        OUTLET_NOT_FOUND_OR_NOT_BELONG_TO_DEPARTMENT,
+        LOCATION_NOT_FOUND_OR_NOT_BELONG_TO_OUTLET,
+        NO_TABLES_FOUND,
+        TABLES_NOT_FOUND_OR_NOT_BELONG_TO_LOCATION,
+        QRCODE_GENERATED_SUCCESSFULLY,
+    }
+}
