@@ -635,6 +635,7 @@
     "LOCATION_NOT_FOUND_OR_NOT_BELONG_TO_OUTLET": "Location not found or does not belong to this outlet.",
     "NO_TABLES_FOUND": "No tables found.",
     "TABLES_NOT_FOUND_OR_NOT_BELONG_TO_LOCATION": "The following tables do not exist or do not belong to this location: {0}",
-    "QRCODE_GENERATED_SUCCESSFULLY": "QR code generated successfully."
+    "QRCODE_GENERATED_SUCCESSFULLY": "QR code generated successfully.",
+    "SYS_URL_GEN_QRCODE_NOT_CONFIGURED": "The system parameter SYS_URL_GEN_QRCODE is not configured."
   }
 }
