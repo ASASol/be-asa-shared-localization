@@ -17,6 +17,7 @@ namespace be_asa_shared_localization.Enums.ModuleWebsite.SectionComponent.Aubout
         MAPPING_ERROR,
         USER_NOT_AUTHORIZED,
         INVALID_USER_CONTEXT,
-        PAGINATION_ERROR
+        PAGINATION_ERROR,
+        ALREADY_FEEDBACK
     }
 }

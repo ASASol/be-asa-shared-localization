@@ -450,7 +450,8 @@
     "MAPPING_ERROR": "Data mapping error for customer feedback.",
     "USER_NOT_AUTHORIZED": "User is not authorized to access.",
     "INVALID_USER_CONTEXT": "Invalid user context information.",
-    "PAGINATION_ERROR": "Pagination data error."
+    "PAGINATION_ERROR": "Pagination data error.",
+    "ALREADY_FEEDBACK": "You have already submitted feedback for this order."
   },
   "companyInfo": {
     "NOT_FOUND": "Company information not found.",

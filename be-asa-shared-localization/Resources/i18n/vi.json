@@ -450,7 +450,8 @@
     "MAPPING_ERROR": "Lỗi ánh xạ dữ liệu phản hồi khách hàng.",
     "USER_NOT_AUTHORIZED": "Người dùng không có quyền truy cập.",
     "INVALID_USER_CONTEXT": "Thông tin người dùng không hợp lệ.",
-    "PAGINATION_ERROR": "Lỗi phân trang dữ liệu."
+    "PAGINATION_ERROR": "Lỗi phân trang dữ liệu.",
+    "ALREADY_FEEDBACK": "Bạn đã đánh giá đơn hàng này rồi."
   },
   "companyInfo": {
     "NOT_FOUND": "Không tìm thấy thông tin công ty.",
