@@ -605,7 +605,8 @@
     "CURRENCY_PARAM_NOT_FOUND": "Không tìm thấy thông số cấu hình tiền tệ.",
     "PRODUCT_NOT_FOUND_LIST": "Không tìm thấy sản phẩm: {0}.",
     "INVALID_LOCK_TYPE": "Loại khóa không hợp lệ. (1: Khóa để đặt món, 2: Khóa để thanh toán)",
-    "CANNOT_CHANGE_TABLE_DIFFERENT_OUTLET": "Không thể chuyển bàn giữa các outlet khác nhau."
+    "CANNOT_CHANGE_TABLE_DIFFERENT_OUTLET": "Không thể chuyển bàn giữa các outlet khác nhau.",
+    "ORDER_NOT_BELONG_TO_CUSTOMER": "Đơn bán hàng này không thuộc về bạn."
   },
   "dashboard": {
     "USER_NOT_FOUND_OR_INACTIVE": "Người dùng không tồn tại hoặc đã bị vô hiệu hóa.",
