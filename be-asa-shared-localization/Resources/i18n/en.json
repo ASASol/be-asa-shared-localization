@@ -550,7 +550,8 @@
     "ORDER_ALREADY_REDUCED_CANNOT_PRINT_INVOICE": "Cannot issue invoice because the order has already been reduced",
     "REDUCTION_ORDER_CANNOT_PRINT_INVOICE": "Cannot issue invoice for a reduction order",
     "INVOICE_CANCELLED_CANNOT_ISSUE": "The invoice has been cancelled and cannot be issued.",
-    "INVOICE_CANCELLED_CANNOT_PRINT": "The invoice has been cancelled and cannot be printed."
+    "INVOICE_CANCELLED_CANNOT_PRINT": "The invoice has been cancelled and cannot be printed.",
+    "ORDER_NOT_PAID_CANNOT_ISSUE_INVOICE": "The order has not been paid, so the invoice cannot be issued."
   },
   "saleOrderValidation": {
     "INVALID_SALE_METHOD": "Invalid sales method.",
