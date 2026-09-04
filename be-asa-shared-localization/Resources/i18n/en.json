@@ -48,7 +48,8 @@
     "DATA_DELETED": "Data deleted successfully.",
     "UNHANDLED_ERROR": "An unexpected error has occurred.",
     "NAME_CAN_NOT_EMPTY": "Name can not empty.",
-    "LOG_NOT_FOUND": "Log not found"
+    "LOG_NOT_FOUND": "Log not found",
+    "EXELY_API_KEY_ALREADY_LINKED": "ExelyApiKey '{0}' is already linked"
   },
   "branch": {
     "BRANCH_ALREADY_EXISTS": "Branch already exists.",
@@ -641,5 +642,17 @@
     "TABLES_NOT_FOUND_OR_NOT_BELONG_TO_LOCATION": "The following tables do not exist or do not belong to this location: {0}",
     "QRCODE_GENERATED_SUCCESSFULLY": "QR code generated successfully.",
     "SYS_URL_GEN_QRCODE_NOT_CONFIGURED": "The system parameter SYS_URL_GEN_QRCODE is not configured."
+  },
+  "connection": {
+    "EXELY_CONNECTION_CONFIGURATION_NOT_FOUND": "Exely connection configuration was not found."
+  },
+  "roomType": {
+    "NOT_FOUND": "Room type not found."
+  },
+  "ratePlan": {
+    "NOT_FOUND": "Rate plan not found."
+  },
+  "extraService": {
+    "NOT_FOUND": "Extra service not found."
   }
 }

@@ -11,6 +11,7 @@
         DATA_DELETED,
         UNHANDLED_ERROR,
         NAME_CAN_NOT_EMPTY,
-        LOG_NOT_FOUND
+        LOG_NOT_FOUND,
+        EXELY_API_KEY_ALREADY_LINKED
     }
 }
