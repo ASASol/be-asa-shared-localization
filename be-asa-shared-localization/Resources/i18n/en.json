@@ -142,6 +142,13 @@
     "RESET_PASSCODE_FAILED": "Failed to reset passcode.",
     "NEW_PASSCODE_CONFIRM_MISMATCH": "New passcode and confirmation passcode do not match."
   },
+  "userInGroup": {
+    "GROUP_CODE_AND_USER_IDS_REQUIRED": "GroupCode and UserIds are required for each group.",
+    "AUTHENTICATED_USER_REQUIRED": "An authenticated user is required.",
+    "DUPLICATE_GROUP_CODES": "Duplicate group codes are not allowed.",
+    "GROUP_CODES_NOT_FOUND": "One or more group codes do not exist.",
+    "USER_IDS_NOT_FOUND": "One or more user IDs do not exist."
+  },
   "userPermissionGroup": {
     "INVALID_GROUPS": "Invalid permission groups.",
     "CANNOT_ASSIGN_SYSTEM_GROUP": "This user cannot be assigned to a system permission group.",

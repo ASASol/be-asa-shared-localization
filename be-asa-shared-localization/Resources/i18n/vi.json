@@ -142,6 +142,13 @@
     "RESET_PASSCODE_FAILED": "Đặt lại Passcode thất bại.",
     "NEW_PASSCODE_CONFIRM_MISMATCH": "Passcode mới và xác nhận Passcode không giống nhau."
   },
+  "userInGroup": {
+    "GROUP_CODE_AND_USER_IDS_REQUIRED": "GroupCode và UserIds là bắt buộc cho mỗi nhóm.",
+    "AUTHENTICATED_USER_REQUIRED": "Yêu cầu người dùng đã xác thực.",
+    "DUPLICATE_GROUP_CODES": "Không cho phép mã nhóm bị trùng lặp.",
+    "GROUP_CODES_NOT_FOUND": "Một hoặc nhiều mã nhóm không tồn tại.",
+    "USER_IDS_NOT_FOUND": "Một hoặc nhiều ID người dùng không tồn tại."
+  },
   "userPermissionGroup": {
     "INVALID_GROUPS": "Các nhóm quyền không hợp lệ.",
     "CANNOT_ASSIGN_SYSTEM_GROUP": "Người dùng này không thể được gán nhóm quyền hệ thống.",
