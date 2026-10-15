@@ -1,0 +1,24 @@
+namespace be_asa_shared_localization.Enums.ModulePayment
+{
+    public enum ShiftKeys
+    {
+        INVALID_FILTERS_OR_PAGINATION,
+        OPEN_SESSION_ALREADY_EXISTS,
+        SESSION_ID_REQUIRED,
+        SESSION_NOT_FOUND,
+        SESSION_NOT_OPEN,
+        CLOSE_NOT_ALLOWED,
+        INVALID_USERS,
+        DUPLICATE_USER_NAME_MISMATCH,
+        ONLY_OPEN_SESSION_CAN_BE_UPDATED,
+        INVALID_ASSIGNMENT_SCOPE,
+        INVALID_CHECK_PAYMENT_SHIFT,
+        CHECK_PAYMENTS_NOT_FOUND,
+        CALLER_NAME_TOO_LONG,
+        USER_CONTEXT_UNAVAILABLE,
+        INVALID_CALLER_NAME,
+        INVALID_TOKEN_USER_ID,
+        NOT_FOUND,
+        INVALID_SCOPE
+    }
+}

@@ -1,4 +1,4 @@
-﻿{
+{
   "auth": {
     "INVALID_CREDENTIALS": "Invalid email or password.",
     "USER_NOT_ACTIVE": "The account has not been activated.",
@@ -661,5 +661,25 @@
   },
   "extraService": {
     "NOT_FOUND": "Extra service not found."
+  },
+  "shift": {
+    "INVALID_FILTERS_OR_PAGINATION": "Invalid filters or pagination. PageNumber must be positive, PageSize must be 1-100, Status must be 1 or 2.",
+    "OPEN_SESSION_ALREADY_EXISTS": "The user already has an open session for this department, outlet and business date. Close it before opening another shift.",
+    "SESSION_ID_REQUIRED": "ShiftSessionId is required.",
+    "SESSION_NOT_FOUND": "Shift session was not found.",
+    "SESSION_NOT_OPEN": "Shift session is not open.",
+    "CLOSE_NOT_ALLOWED": "Only the opener or a user with a closing level less than the opening level can close this shift.",
+    "INVALID_USERS": "Users must be supplied with valid user IDs and usernames containing 1 to 200 characters.",
+    "DUPLICATE_USER_NAME_MISMATCH": "Duplicate user IDs must have the same username.",
+    "ONLY_OPEN_SESSION_CAN_BE_UPDATED": "Only open shift sessions can be updated.",
+    "INVALID_ASSIGNMENT_SCOPE": "A valid outlet, department and business date are required.",
+    "INVALID_CHECK_PAYMENT_SHIFT": "A valid PmCheckCode and PmShift are required.",
+    "CHECK_PAYMENTS_NOT_FOUND": "Check payments were not found.",
+    "CALLER_NAME_TOO_LONG": "The caller username must contain at most 50 characters.",
+    "USER_CONTEXT_UNAVAILABLE": "User context is not available.",
+    "INVALID_CALLER_NAME": "The caller username must contain 1 to 200 characters.",
+    "INVALID_TOKEN_USER_ID": "Token does not contain a valid user ID.",
+    "NOT_FOUND": "Shift was not found.",
+    "INVALID_SCOPE": "A valid outlet, department, business date and numeric shift code are required."
   }
 }
